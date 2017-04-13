@@ -12,6 +12,7 @@ body {
 	display: table-cell;
 	text-align: center;
 	vertical-align: middle;
+	font-size: 1.1em;
 }
 .main_menu a{
 	text-decoration: none;
