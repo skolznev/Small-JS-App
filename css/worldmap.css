@@ -4,7 +4,8 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	background:#e5f9ff;
+	/*background-image: url(../image/fon.jpg);*/
+	background-color: #e5f9ff;
 }
 .main_menu {
 	width: 100%;
