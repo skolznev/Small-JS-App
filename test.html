@@ -1,31 +1,23 @@
-/*.menu_button, .logo {
-	border: 1px solid red;
-}
-.logo_main_menu {
-	border: 1px solid blue;
-}   */
-.discription {
-	text-align: center;
-}
-.logo {
-	background-image: url(../image/logo.png);
-	background-size: 300px;
-	background-repeat: no-repeat;
-	background-position: center;
-	width: 100%;
-	height: 200px;
-}
-.name {
-	background-image: url(../image/name.png);
-	background-size: 400px;
-	background-repeat: no-repeat;
-	background-position: center;
-	width: 100%;
-	height: 200px;
-}
-video { display: block; }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Главная</title>
+    
+</head>
+<body>
+    <video autoplay loop poster="НазваниеКартинки.jpg" id="video-on-bg">
+    <source src="video/bg_video.mp4" type="video/mp4">
+</video>
+<!--[if lt IE 9]>
+<script>
+    document.createElement('video');
+</script>
+<![endif]-->
+<style type="text/css">
+    video { display: block; }
     video#video-on-bg {
-        background:url('image/bg.jpg') no-repeat center center fixed;
+        background:url('НазваниеКартинки.jpg') no-repeat center center fixed;
         -webkit-background-size: cover;
            -moz-background-size: cover;
             -ms-background-size: cover;
@@ -39,4 +31,8 @@ video { display: block; }
         left: 0; /* прикрепить видео к левому краю или правому? (right:0;) */
         bottom: 0; /* прикрепить видео к нижнему краю или верхнему (top:0;) */
         z-index: -998;
-}
+    }
+</style>
+</body>
+
+</html>

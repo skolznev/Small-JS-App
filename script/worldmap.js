@@ -37,31 +37,63 @@ AmCharts.ready(function() {
             id: "africa",
             linkToObject: worldDataProvider,
             color: "#723C1A",
+            // pattern: {},
+			// images: "../image/afrika.jpg",
+			pattern: {
+				url: "patterns/white/afrika.jpg",
+				width: 300,
+				height: 225
+			},
             passZoomValuesToTarget: true},
         {
             id: "asia",
             linkToObject: worldDataProvider,
             color: "#C8AB67",
+            pattern: {
+				url: "patterns/white/asia.jpg",
+				width: 1000,
+				height: 707
+			},
             passZoomValuesToTarget: true},
         {
             id: "australia",
             linkToObject: worldDataProvider,
             color: "#93644A",
+            pattern: {
+				url: "patterns/white/afrika.jpg",
+				width: 300,
+				height: 225
+			},
             passZoomValuesToTarget: true},
         {
             id: "europe",
             linkToObject: worldDataProvider,
             color: "#AA805A",
+            pattern: {
+				url: "patterns/white/evropa.jpg",
+				width: 990,
+				height: 400
+			},
             passZoomValuesToTarget: true},
         {
             id: "north_america",
             linkToObject: worldDataProvider,
             color: "#8D725F",
+            pattern: {
+				url: "patterns/white/amerika.jpg",
+				width: 960,
+				height: 500
+			},
             passZoomValuesToTarget: true},
         {
             id: "south_america",
             linkToObject: worldDataProvider,
             color: "#BE8045",
+            pattern: {
+				url: "patterns/white/asia.jpg",
+				width: 1000,
+				height: 707
+			},
             passZoomValuesToTarget: true}]
     };
 
