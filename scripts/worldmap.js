@@ -72,7 +72,7 @@ AmCharts.ready(function() {
             pattern: {
 				url: "patterns/white/evropa.jpg",
 				width: 990,
-				height: 400
+				height: 743
 			},
             passZoomValuesToTarget: true},
         {
