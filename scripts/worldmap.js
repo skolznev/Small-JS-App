@@ -51,8 +51,8 @@ AmCharts.ready(function() {
             color: "#C8AB67",
             pattern: {
 				url: "patterns/white/asia.jpg",
-				width: 1000,
-				height: 707
+				width: 1600,
+				height: 1600
 			},
             passZoomValuesToTarget: true},
         {
