@@ -187,9 +187,9 @@ AmCharts.ready(function() {
             title: "alala",
 			// pattern: 
 			// 	{
-			// 		url: "patterns/white/afrika.jpg",
-			// 		width: 400,
-			// 		height: 420
+			// 		url: "patterns/black/pattern1.png",
+			// 		width: 5,
+			// 		height: 5
 			// 	},
             passZoomValuesToTarget: true},
         {
