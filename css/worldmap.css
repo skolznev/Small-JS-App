@@ -6,9 +6,7 @@
 	height: 100%;
 	/*background-color:#e5f9ff; */
 	z-index: 0;
-	
 }
-
 #chartdiv {
   position: fixed;
   top: 50px;
@@ -18,7 +16,6 @@
   /*background-color:#e5f9ff; */
   z-index: 0;
 }
-
 .map-marker {
     /* adjusting for the marker dimensions
     so that it is centered on coordinates */

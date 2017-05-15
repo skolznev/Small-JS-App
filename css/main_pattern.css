@@ -1,0 +1,50 @@
+#event-mess {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+  color: #000;
+  font-size: 1.5em;
+  text-align: center;
+}
+.panel {
+	position: relative;
+	z-index: 1;
+    margin: 180px 5% 0;
+    width: 260px;
+}
+.panel-body {
+	height: 30px;
+	margin: 9px;
+}
+.panel-body p{
+    height: 0px;
+    /*padding: 2%;*/
+}
+.optional_tasks {
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+.optional_tasks p i{
+	margin: 0 30px;
+	cursor: pointer;
+}
+.optional_tasks p i:hover{
+	color: #f00;
+}
+.main_tasks {
+	position: fixed;
+	width: 100%;
+	text-align: right;
+	z-index: 2;
+}
+.main_tasks p i{
+	color: #f00;
+	margin: 0 30px;
+	cursor: pointer;
+}
+.main_tasks p i:hover{
+	color: #00a822;
+}
