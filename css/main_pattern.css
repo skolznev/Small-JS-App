@@ -48,3 +48,13 @@
 .main_tasks p i:hover{
 	color: #00a822;
 }
+.main_balance {
+	position: fixed;
+	width: 100%;
+	text-align: right;
+	z-index: 2;
+}
+.main_balance p{
+	margin: 0 150px;
+	cursor: pointer;
+}

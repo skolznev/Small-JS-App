@@ -140,7 +140,15 @@
 
         <!-- Обязательное задание -->
         <div class="main_tasks">
-            <p><i class="fa fa-bell-o fa-4x" aria-hidden="true" data-toggle="modal" data-target="#mainTask"></i></p>
+            <p><i class="fa fa-bell-o fa-3x" aria-hidden="true" data-toggle="modal" data-target="#mainTask"></i></p>
+        </div>
+        
+        <!-- Основной баланс -->
+        <div class="main_balance" data-toggle="modal" data-target="#mainBalance">
+            <p>
+            <img src="../../images/coin.gif" alt="coin">
+            <p id="count_balance">5000</p>
+            </p>
         </div>
 
         <!-- Таймер -->
@@ -246,6 +254,27 @@
               <div class="modal-body">
                 <img src="../../images/puaro.jpg" alt="">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione tempora reiciendis, neque id similique corporis repellat rerum nisi voluptatum beatae voluptates eos et quisquam incidunt sapiente ipsum eligendi eaque illo vel minima molestias facere, quod earum sint. Labore ut quam facilis ratione unde, sequi quaerat id accusamus nostrum corrupti dolorem possimus saepe nisi dolor deleniti, autem nulla reprehenderit? Quisquam ut et nihil quod incidunt asperiores iusto adipisci dolorem, magni ipsam praesentium cupiditate sapiente doloremque facere unde esse impedit delectus repudiandae labore iure ullam deserunt exercitationem. Odit explicabo quis reprehenderit labore. Incidunt molestiae harum cumque, necessitatibus eum, dolorum soluta a suscipit?</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Детали баланса (модальное окно) -->
+        <div class="modal fade" backdrop="false" id="mainBalance" tabindex="-1" role="dialog" aria-labelledby="mainBalanceLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Детализация баланса</h4>
+              </div>
+              <div class="modal-body">
+                <p>Задание +2000 <i class="fa fa-money" aria-hidden="true"></i></p>
+                <p>Перелет -200 <i class="fa fa-money" aria-hidden="true"></i></p>
+                <p>Перелет -200 <i class="fa fa-money" aria-hidden="true"></i></p>
+                <p>Перелет -50 <i class="fa fa-money" aria-hidden="true"></i></p>
+                <p>Перелет -100 <i class="fa fa-money" aria-hidden="true"></i></p>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
