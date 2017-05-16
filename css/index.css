@@ -19,6 +19,10 @@ video { display: block; }
     color: white;
     font-size: 1.5em;
     text-align: center;
+    text-shadow: #000 0 0 10px;
+}
+#timetoevent {
+    font-weight: bold;
 }
 .col-sm-3 {
     width: 24%;

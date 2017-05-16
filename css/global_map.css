@@ -1,9 +1,21 @@
+#mapdiv {
+	position: fixed;
+	top: 50px;
+	left: 0;
+	width: 100%; 
+	height: 100%;
+	/*background-color:#e5f9ff; */
+	z-index: 0;
+}
 #event-mess {
-  position: fixed;
-  width: 100%;
+  position: absolute;
+  left: 37%;
   text-align: center;
-  z-index: 1;
   color: #000;
   font-size: 1.5em;
-  text-align: center;
+  text-shadow: #fff 0 0 10px;
+  z-index: 1;
+}
+#timetoevent {
+	font-weight: bold;
 }
