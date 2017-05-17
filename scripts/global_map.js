@@ -45,7 +45,7 @@ AmCharts.ready(function() {
         autoZoom: true,
         rollOverOutlineColor: "#40403d", //Цвет границ
         selectedColor: "#f2f23a", //Цвет выбранной территории
-        color: "#58e8c2" //Цвет стран по умолчанию
+        color: "#58e8c2", //Цвет стран по умолчанию	
     };
 
     //Глобальные настройки объектов на карте
@@ -64,56 +64,93 @@ AmCharts.ready(function() {
         alpha: 0.4
     };
 
-    // var backButton = {
-    //     svgPath: backIconSVG,
-    //     label: "Back to continents map",
-    //     rollOverColor: "#CC0000",
-    //     labelRollOverColor: "#CC0000",
-    //     useTargetsZoomValues: true,
-    //     linkToObject: continentsDataProvider,
-    //     left: 30,
-    //     bottom: 30,
-    //     labelFontSize: 15
-    // };
-
 //*************** Задаем свойства элементов ******************
 
     //Линии передвижения команд
-    var lines1 = [{
-        id: "line1",
-        arc: -0.85,
-        alpha: 0.3,
-        latitudes: [55.755826, 38.9071923],
-        longitudes: [37.6173, -77.03687070000001]
-    }, {
-        id: "line2",
-        alpha: 0,
-        color: "#000000",
-        latitudes: [55.755826, 38.9071923],
-        longitudes: [37.6173, -77.03687070000001]
-    }];
+    var lines = [
+	    {
+	        id: "line1",
+	        arc: -0.85,
+	        alpha: 0.3,
+	        latitudes: [55.755826, 38.9071923],
+	        longitudes: [37.6173, -77.03687070000001]
+	    }, 
+	    {
+	        id: "line2",
+	        alpha: 0,
+	        color: "#000000",
+	        latitudes: [55.755826, 38.9071923],
+	        longitudes: [37.6173, -77.03687070000001]
+	    }, 
+	    {
+	        id: "line3",
+	        arc: -0.85,
+	        alpha: 0.3,
+	        latitudes: [51.6754966, -4.2633597],
+	        longitudes: [39.20888230000003, 15.242885300000012]
+	    }, 
+	    {
+	        id: "line4",
+	        alpha: 0,
+	        color: "#000000",
+	        latitudes: [51.6754966, -4.2633597],
+	        longitudes: [39.20888230000003, 15.242885300000012]
+	    }, 
+	    {
+	        id: "line5",
+	        arc: -0.85,
+	        alpha: 0.3,
+	        latitudes: [59.9342802, 10.4805937],
+	        longitudes: [30.335098600000038, -66.90360629999998]
+	    }, 
+	    {
+	        id: "line6",
+	        alpha: 0,
+	        color: "#000000",
+	        latitudes: [59.9342802, 10.4805937],
+	        longitudes: [30.335098600000038, -66.90360629999998]
+	    }, 
+	    {
+	        id: "line7",
+	        arc: -0.85,
+	        alpha: 0.3,
+	        latitudes: [56.83892609999999, -35.2809368],
+	        longitudes: [60.60570250000001, 149.13000920000002]
+	    }, 
+	    {
+	        id: "line8",
+	        alpha: 0,
+	        color: "#000000",
+	        latitudes: [56.83892609999999, -35.2809368],
+	        longitudes: [60.60570250000001, 149.13000920000002]
+	    }, 
+	    {
+	        id: "line9",
+	        arc: -0.85,
+	        alpha: 0.3,
+	        latitudes: [55.00835259999999, 35.6891975],
+	        longitudes: [82.93573270000002, 51.388973599999986]
+	    }, 
+	    {
+	        id: "line10",
+	        alpha: 0,
+	        color: "#000000",
+	        latitudes: [55.00835259999999, 35.6891975],
+	        longitudes: [82.93573270000002, 51.388973599999986]
+	    }
 
-    var lines2 = [{
-        id: "line3",
-        arc: -0.85,
-        alpha: 0.3,
-        latitudes: [51.6754966, -4.2633597],
-        longitudes: [39.20888230000003, 15.242885300000012]
-    }, {
-        id: "line4",
-        alpha: 0,
-        color: "#000000",
-        latitudes: [51.6754966, -4.2633597],
-        longitudes: [39.20888230000003, 15.242885300000012]
-    }];
+    ];
 
     //Объекты на карте
     var mapObjects = [
 	    {
-	        svgPath: targetSVG,
+	        imageURL: "../images/et.png",
+	        width: 50,
+      		height: 50,
 	        title: "Москва",
 	        latitude: 55.755826,
 	        longitude: 37.6173,
+	        // label: "Madrid: +22C" //Подписи к картинкам
 	    }, 
 	    {
 	        svgPath: targetSVG,
@@ -122,7 +159,9 @@ AmCharts.ready(function() {
 	        longitude: 39.20888230000003,
 	    }, 
 	    {
-	        svgPath: targetSVG,
+	        imageURL: "../images/et.png",
+	        width: 50,
+      		height: 50,
 	        title: "Новосибирск",
 	        latitude: 55.00835259999999,
 	        longitude: 82.93573270000002,
@@ -312,7 +351,7 @@ AmCharts.ready(function() {
 	        color: "#000000",
 	        alpha: 0.1,
 	        animateAlongLine: true,
-	        lineId: "line3",
+	        lineId: "line4",
 	        flipDirection: true,
 	        loop: true,
 	        scale: 0.03,
@@ -323,7 +362,100 @@ AmCharts.ready(function() {
 	        positionOnLine: 0,
 	        color: "#585869",
 	        animateAlongLine: true,
-	        lineId: "line4",
+	        lineId: "line3",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.8
+	    },
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#000000",
+	        alpha: 0.1,
+	        animateAlongLine: true,
+	        lineId: "line6",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.3
+	    }, 
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#585869",
+	        animateAlongLine: true,
+	        lineId: "line5",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.8
+	    },
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#000000",
+	        alpha: 0.1,
+	        animateAlongLine: true,
+	        lineId: "line8",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.3
+	    }, 
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#585869",
+	        animateAlongLine: true,
+	        lineId: "line7",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.8
+	    },
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#000000",
+	        alpha: 0.1,
+	        animateAlongLine: true,
+	        lineId: "line10",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.3
+	    }, 
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#585869",
+	        animateAlongLine: true,
+	        lineId: "line9",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.8
+	    }
+	    ,
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#000000",
+	        alpha: 0.1,
+	        animateAlongLine: true,
+	        lineId: "line12",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.3
+	    }, 
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#585869",
+	        animateAlongLine: true,
+	        lineId: "line11",
 	        flipDirection: true,
 	        loop: true,
 	        scale: 0.03,
@@ -447,8 +579,7 @@ AmCharts.ready(function() {
 //*************** Выводим содержимое на экран ******************
 
     worldDataProvider.images = mapObjects;
-    worldDataProvider.lines = lines1;
-    worldDataProvider.lines = lines2;
+    worldDataProvider.lines = lines;
     map.dataProvider = continentsDataProvider;
 	map.dataProvider.images = teams;
 

@@ -1,0 +1,29 @@
+body {
+    background-image: url(../images/flight.jpg);
+}
+.textAttention {
+    position: absolute;
+    left: 10%;
+    font-size: 2.5em;
+    color: #fff;
+    text-shadow: #000 0 0 10px;
+}
+#beforeStartEvent {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    font-size: 3em;
+    color: #fff200;
+    text-shadow: #000 0 0 10px;
+}
+#timetoevent {
+    font-weight: bold;
+}
+.textThanks {
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    font-size: 3em;
+    color: #fff;
+    text-shadow: #000 0 0 10px;
+}

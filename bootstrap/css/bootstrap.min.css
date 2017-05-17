@@ -12,10 +12,10 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;
   }
 }
-/*.col-sm-3 {
-    width: 24%;
+.col-sm-3 {
+    width: 23.5%;
 }
-.panel {
+/*.panel {
 	margin-top: 100px;
 	margin: 120px 20% 0;
 }*/

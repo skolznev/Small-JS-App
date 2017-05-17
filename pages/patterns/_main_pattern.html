@@ -151,7 +151,12 @@
 
         <!-- Обязательное задание -->
         <div class="main_tasks">
-            <p><i class="fa fa-bell-o fa-3x" aria-hidden="true" data-toggle="modal" data-target="#mainTask"></i></p>
+            <p><img src="../../images/bell.png" alt="Касса" data-toggle="modal" data-target="#mainTask"></p>
+        </div>
+
+        <!-- Авиакасса -->
+        <div class="kassa">
+            <p><img src="../../images/fly.png" alt="Касса" data-toggle="modal" data-target="#kassaModal"></p>
         </div>
 
         <!--/ Список участников команды -->
@@ -231,11 +236,12 @@
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Задание континента</h4>
+                <h4 class="modal-title" id="myModalLabel">Задание континента <i class="fa fa-bell" aria-hidden="true"></i></h4>
               </div>
               <div class="modal-body">
-                <p>Описание задания континента</p>
-                <p>2000 <i class="fa fa-money" aria-hidden="true"></i></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, vel ratione molestiae quisquam nisi sed officia sit, doloremque fugiat, mollitia sequi deserunt, veniam esse. Nihil totam voluptatum similique beatae, ratione blanditiis maxime possimus quia veniam fuga tempore repellendus dolorum distinctio nulla laboriosam inventore, veritatis eaque. Saepe accusantium quisquam facilis consectetur?</p>
+                <hr>
+                <strong><p>За выполнение: 2000 <i class="fa fa-money" aria-hidden="true"></i></p></strong>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
@@ -301,14 +307,200 @@
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Детализация баланса</h4>
+                <h4 class="modal-title" id="myModalLabel">Детализация баланса <i class="fa fa-money" aria-hidden="true"></i></h4>
               </div>
               <div class="modal-body">
-                <p>Задание +2000 <i class="fa fa-money" aria-hidden="true"></i></p>
-                <p>Перелет -200 <i class="fa fa-money" aria-hidden="true"></i></p>
-                <p>Перелет -200 <i class="fa fa-money" aria-hidden="true"></i></p>
-                <p>Перелет -50 <i class="fa fa-money" aria-hidden="true"></i></p>
-                <p>Перелет -100 <i class="fa fa-money" aria-hidden="true"></i></p>
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th>Описание</th>
+                      <th>Стоимость</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Выполнено задание</td>
+                      <td>+2000 <i class="fa fa-money" aria-hidden="true"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Выполнено непроизводственное задание</td>
+                      <td>+5 <i class="fa fa-money" aria-hidden="true"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Перелет</td>
+                      <td>+5 <i class="fa fa-money" aria-hidden="true"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Перелет</td>
+                      <td>+5 <i class="fa fa-money" aria-hidden="true"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Перелет</td>
+                      <td>+5 <i class="fa fa-money" aria-hidden="true"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Перелет</td>
+                      <td>+5 <i class="fa fa-money" aria-hidden="true"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Перелет</td>
+                      <td>+5 <i class="fa fa-money" aria-hidden="true"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Перелет</td>
+                      <td>+5 <i class="fa fa-money" aria-hidden="true"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Перелет</td>
+                      <td>+5 <i class="fa fa-money" aria-hidden="true"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Перелет</td>
+                      <td>+5 <i class="fa fa-money" aria-hidden="true"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Перелет</td>
+                      <td>+5 <i class="fa fa-money" aria-hidden="true"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Перелет</td>
+                      <td>+5 <i class="fa fa-money" aria-hidden="true"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Перелет</td>
+                      <td>+5 <i class="fa fa-money" aria-hidden="true"></i></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Касса (модальное окно) -->
+        <div class="modal fade" backdrop="false" id="kassaModal" tabindex="-1" role="dialog" aria-labelledby="kassaModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="kassaModalLabel">Авиакасса <i class="fa fa-plane" aria-hidden="true"></i></h4>
+              </div>
+              <div class="modal-body">
+                <strong><p>Стоимость перелета между странами</p></strong>
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th>Эфиопия</th>
+                      <th>Конго</th>
+                      <th>Мозамбик</th>
+                      <th>Марокко</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Эфиопия</th>
+                      <td>-</td>
+                      <td>20</td>
+                      <td>30</td>
+                      <td>25</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Конго</th>
+                      <td>43</td>
+                      <td>-</td>
+                      <td>5</td>
+                      <td>66</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Мозамбик</th>
+                      <td>41</td>
+                      <td>32</td>
+                      <td>-</td>
+                      <td>53</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Марокко</th>
+                      <td>5</td>
+                      <td>45</td>
+                      <td>25</td>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <hr>
+                <strong><p>Стоимость перелета между континентами</p></strong>
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th>Азия</th>
+                      <th>Африка</th>
+                      <th>Европа</th>
+                      <th>Океания</th>
+                      <th>Ю.Америка</th>
+                      <th>С.Америка</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Азия</th>
+                      <td>-</td>
+                      <td>20</td>
+                      <td>30</td>
+                      <td>25</td>
+                      <td>30</td>
+                      <td>25</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Африка</th>
+                      <td>43</td>
+                      <td>-</td>
+                      <td>5</td>
+                      <td>66</td>
+                      <td>5</td>
+                      <td>66</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Европа</th>
+                      <td>41</td>
+                      <td>32</td>
+                      <td>-</td>
+                      <td>53</td>
+                      <td>9</td>
+                      <td>53</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Океания</th>
+                      <td>5</td>
+                      <td>45</td>
+                      <td>25</td>
+                      <td>-</td>
+                      <td>45</td>
+                      <td>25</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Ю.Америка</th>
+                      <td>5</td>
+                      <td>45</td>
+                      <td>25</td>
+                      <td>23</td>
+                      <td>-</td>
+                      <td>25</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">С.Америка</th>
+                      <td>5</td>
+                      <td>45</td>
+                      <td>25</td>
+                      <td>23</td>
+                      <td>5</td>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>

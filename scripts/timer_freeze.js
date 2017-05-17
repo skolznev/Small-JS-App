@@ -19,25 +19,24 @@
  return output;
 }
 
-//Функция показывает сколько осталось до окончания игровой недели
+//Функция показывает сколько осталось до старта игровой недели.
 window.onload = function(){
   // текущая дата
   var now = new Date();       
   // дата предстоящего события (год, месяц, число)
-  var eventDate = new Date(2017,4,18,17,35,00,00);
+  var eventDate = new Date(2017,4,17,17,34,00,00);
   var span = document.getElementById('timetoevent');
-  var text = 'До окончания игровой недели осталось: ';
-  var div = document.getElementById('event-mess');
+  var div = document.getElementById('beforeStartEvent');
   // если событие еще не наступило
   if(now < eventDate){
-   div.firstChild.nodeValue = text;
     window.setInterval(function(){
         if(new Date() > eventDate) {
-          window.location = "../flight.html";
+          window.location = "patterns/_main_pattern.html";
         }
         span.innerHTML = timeToEvent(eventDate); 
       },1000);           
   } else {
-    window.location = "../flight.html";
-  }           
+    window.location = "patterns/_main_pattern.html";
+  }
+
 }
