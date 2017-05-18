@@ -15,23 +15,6 @@ video { display: block; }
         bottom: 0; /* прикрепить видео к нижнему краю или верхнему (top:0;) */
         z-index: -998;
 }
-#event-mess {
-    position: absolute;
-    color: white;
-    font-size: 1.5em;
-    text-align: center;
-    text-shadow: #000 0 0 10px;
-    left: 20%;
-}
-#timetoevent {
-    font-weight: bold;
-}
 .col-sm-3 {
     width: 24%;
-}
-.panel {
-    position: absolute;
-    left: 75%;
-    /*margin-top: 100px;*/
-    /*margin: 30px 20% 0;*/
 }

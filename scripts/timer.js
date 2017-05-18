@@ -24,7 +24,7 @@ window.onload = function(){
   // текущая дата
   var now = new Date();       
   // дата предстоящего события (год, месяц, число)
-  var eventDate = new Date(2017,4,18,17,35,00,00);
+  var eventDate = new Date(2017,7,20,17,35,00,00);
   var span = document.getElementById('timetoevent');
   var text = 'До окончания игровой недели осталось: ';
   var div = document.getElementById('event-mess');

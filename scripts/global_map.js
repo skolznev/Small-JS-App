@@ -144,7 +144,7 @@ AmCharts.ready(function() {
     //Объекты на карте
     var mapObjects = [
 	    {
-	        imageURL: "../images/map_objects/et.png",
+	        imageURL: "../images/map_objects/moscow.png",
 	        width: 50,
       		height: 50,
 	        title: "Москва",
@@ -153,13 +153,15 @@ AmCharts.ready(function() {
 	        // label: "Madrid: +22C" //Подписи к картинкам
 	    }, 
 	    {
-	        svgPath: targetSVG,
+	        imageURL: "../images/map_objects/voronezh.png",
+	        width: 50,
+      		height: 50,
 	        title: "Воронеж",
 	        latitude: 51.6754966,
 	        longitude: 39.20888230000003,
 	    }, 
 	    {
-	        imageURL: "../images/map_objects/et.png",
+	        imageURL: "../images/map_objects/novosibirsk.png",
 	        width: 50,
       		height: 50,
 	        title: "Новосибирск",
@@ -167,157 +169,209 @@ AmCharts.ready(function() {
 	        longitude: 82.93573270000002,
 	    }, 
 	    {
-	        svgPath: targetSVG,
+	        imageURL: "../images/map_objects/ekaterinburg.png",
+	        width: 50,
+      		height: 50,
 	        title: "Екатеринбург",
 	        latitude: 56.83892609999999,
 	        longitude: 60.60570250000001,
 	    }, 
 	    {
-	        svgPath: targetSVG,
+	        imageURL: "../images/map_objects/petersburg.png",
+	        width: 50,
+      		height: 50,
 	        title: "Санкт-Петербург",
 	        latitude: 59.9342802,
 	        longitude: 30.335098600000038,
 	    }, 
 	    {
-	        svgPath: targetSVG,
+	        imageURL: "../images/map_objects/washington.png",
+	        width: 50,
+      		height: 50,
 	        title: "Вашингтон",
 	        latitude: 38.9071923,
 	        longitude: -77.03687070000001,
 	    }, 
 	    {
-	        svgPath: targetSVG,
+	        imageURL: "../images/map_objects/ottawa.png",
+	        width: 50,
+      		height: 50,
 	        title: "Оттава",
 	        latitude: 45.4215296,
 	        longitude: -75.69719309999999,
 	    },
 	    {
-	        svgPath: targetSVG,
+	        imageURL: "../images/map_objects/belmopan.png",
+	        width: 50,
+      		height: 50,
 	        title: "Бельмопан",
 	        latitude: 17.2510114,
 	        longitude: -88.75902009999999,
 	    },
 	    {
-	        svgPath: targetSVG,
+	        imageURL: "../images/map_objects/havana.png",
+	        width: 50,
+      		height: 50,
 	        title: "Гавана",
 	        latitude: 23.1135925,
 	        longitude: -82.36659559999998
 	    },
 	    {
-	        svgPath: targetSVG,
+	        imageURL: "../images/map_objects/buenos_aires.png",
+	        width: 50,
+      		height: 50,
 	        title: "Буэнос-Айрес",
 	        latitude: -34.6036844,
 	        longitude: -58.381559100000004
 	    },
 	    {
-	        svgPath: targetSVG,
+	        imageURL: "../images/map_objects/brasilia.png",
+	        width: 50,
+      		height: 50,
 	        title: "Бразилиа",
 	        latitude: -15.7941569,
 	        longitude: -47.88252890000001
 	    },
 	    {
-	        svgPath: targetSVG,
+	        imageURL: "../images/map_objects/caracas.png",
+	        width: 50,
+      		height: 50,
 	        title: "Каракас",
 	        latitude: 10.4805937,
 	        longitude: -66.90360629999998
 	    },
 	    {
-	        svgPath: targetSVG,
+	        imageURL: "../images/map_objects/asuncion.png",
+	        width: 50,
+      		height: 50,
 	        title: "Асунсьон",
 	        latitude: -25.2637399,
 	        longitude: -57.57592599999998
 	    },
 	    {
-	        svgPath: targetSVG,
+	        imageURL: "../images/map_objects/san_marino.png",
+	        width: 50,
+      		height: 50,
 	        title: "Сан-Марино",
 	        latitude: 43.94236,
 	        longitude: 12.457776999999965
 	    },
 	    {
-	        svgPath: targetSVG,
+	        imageURL: "../images/map_objects/bratislava.png",
+	        width: 50,
+      		height: 50,
 	        title: "Братислава",
 	        latitude: 48.1485965,
 	        longitude: 17.107747700000004
 	    },
 	    {
-	        svgPath: targetSVG,
+	        imageURL: "../images/map_objects/reykjavik.png",
+	        width: 50,
+      		height: 50,
 	        title: "Рейкьявик",
 	        latitude: 64.12652059999999,
 	        longitude: -21.817439299999933
 	    },
 	    {
-	        svgPath: targetSVG,
+	        imageURL: "../images/map_objects/lisbon.png",
+	        width: 50,
+      		height: 50,
 	        title: "Лиссабон",
 	        latitude: 38.7222524,
 	        longitude: -9.139336599999979
 	    },
 	    {
-	        svgPath: targetSVG,
+	        imageURL: "../images/map_objects/phnom_penh.png",
+	        width: 50,
+      		height: 50,
 	        title: "Пномпень",
 	        latitude: 11.146323170614325,
 	        longitude: 105.27668828437504
 	    },
 	    {
-	        svgPath: targetSVG,
+	        imageURL: "../images/map_objects/beijing.png",
+	        width: 50,
+      		height: 50,
 	        title: "Пекин",
 	        latitude: 39.90419989999999,
 	        longitude: 116.40739630000007
 	    },
 	    {
-	        svgPath: targetSVG,
+	        imageURL: "../images/map_objects/riyadh.png",
+	        width: 50,
+      		height: 50,
 	        title: "Эр-Рияд",
 	        latitude: 24.7135517,
 	        longitude: 46.67529569999999
 	    },
 	    {
-	        svgPath: targetSVG,
+	        imageURL: "../images/map_objects/tehran.png",
+	        width: 50,
+      		height: 50,
 	        title: "Тегеран",
 	        latitude: 35.6891975,
 	        longitude: 51.388973599999986
 	    },
 	    {
-	        svgPath: targetSVG,
+	        imageURL: "../images/map_objects/brazzaville.png",
+	        width: 50,
+      		height: 50,
 	        title: "Браззавиль",
 	        latitude: -4.2633597,
 	        longitude: 15.242885300000012
 	    },
 	    {
-	        svgPath: targetSVG,
+	        imageURL: "../images/map_objects/addis_ababa.png",
+	        width: 50,
+      		height: 50,
 	        title: "Аддис-Абеба",
 	        latitude: 8.9806034,
 	        longitude: 38.75776050000002
 	    },
 	    {
-	        svgPath: targetSVG,
+	        imageURL: "../images/map_objects/maputo.png",
+	        width: 50,
+      		height: 50,
 	        title: "Мапуту",
 	        latitude: -25.891968,
 	        longitude: 32.605135099999984
 	    },
 	    {
-	        svgPath: targetSVG,
+	        imageURL: "../images/map_objects/rabat.png",
+	        width: 50,
+      		height: 50,
 	        title: "Рабат",
 	        latitude: 33.9715904,
 	        longitude: -6.849812899999961
 	    },
 	    {
-	        svgPath: targetSVG,
+	        imageURL: "../images/map_objects/canberra.png",
+	        width: 50,
+      		height: 50,
 	        title: "Канберра",
 	        latitude: -35.2809368,
 	        longitude: 149.13000920000002
 	    },
 	    {
-	        svgPath: targetSVG,
+	        imageURL: "../images/map_objects/wellington.png",
+	        width: 50,
+      		height: 50,
 	        title: "Веллингтон",
 	        latitude: -41.1864603,
 	        longitude: 175.1
 	    },
 	    {
-	        svgPath: targetSVG,
+	        imageURL: "../images/map_objects/port_vila.png",
+	        width: 50,
+      		height: 50,
 	        title: "Порт-Вила",
 	        latitude: -16.1332512,
 	        longitude: 167.42732450000003
 	    },
 	    {
-	        svgPath: targetSVG,
+	        imageURL: "../images/map_objects/suva.png",
+	        width: 50,
+      		height: 50,
 	        title: "Сува",
 	        latitude: -18,
 	        longitude: 178.4500789

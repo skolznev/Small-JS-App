@@ -123,7 +123,7 @@ AmCharts.ready(function() {
         mapVar: AmCharts.maps.worldLow,
         getAreasFromMap:false, //Не показываем остальные страны
         zoomLevel: 2,
-        zoomLongitude: 20,
+        zoomLongitude: 30,
         zoomLatitude: 0,
     };
 
