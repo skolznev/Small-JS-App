@@ -51,37 +51,41 @@ AmCharts.ready(function() {
 
     //Города и другие объекты карты
     var mapObjects = [{
-        imageURL: "../../images/et.png",
+        imageURL: "../../images/map_objects/et.png",
         width: 50,
         height: 50,
+        url: "",
         title: "Браззавиль",
         latitude: -4.2633597,
         longitude: 15.242885300000012,
-        description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis voluptatibus nesciunt porro aut distinctio nihil." + " Lorem: ".bold() + "50$," + " Ipsum: ".bold() + "70$"
+        description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis voluptatibus nesciunt porro aut distinctio nihil." + " Lorem: ".bold() + "50$"
     }, {
-        imageURL: "../../images/et.png",
+        imageURL: "../../images/map_objects/et.png",
         width: 50,
         height: 50,
+        url: "",
         title: "Аддис-Абеба",
         latitude: 8.9806034,
         longitude: 38.75776050000002,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit eius nostrum repudiandae odio fugit corporis."
+        description: "Lorem aipsum dolor sit amet, consectetur adipisicing elit. Odit eius nostrum repudiandae odio fugit corporis." + " Lorem: ".bold() + "50$"
     }, {
-        imageURL: "../../images/et.png",
+        imageURL: "../../images/map_objects/et.png",
         width: 50,
         height: 50,
+        url: "",
         title: "Мапуту",
         latitude: -25.891968,
         longitude: 32.605135099999984,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, eum. Nostrum neque doloribus voluptates minus."
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, eum. Nostrum neque doloribus voluptates minus." + " Lorem: ".bold() + "50$"
     }, {
-        imageURL: "../../images/et.png",
+        imageURL: "../../images/map_objects/et.png",
         width: 50,
         height: 50,
+        url: "",
         title: "Рабат",
         latitude: 33.9715904,
         longitude: -6.849812899999961,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius id doloribus aliquid expedita incidunt alias!"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius id doloribus aliquid expedita incidunt alias!" + " Lorem: ".bold() + "50$"
     },{
         svgPath: planeSVG,
         positionOnLine: 0,

@@ -24,7 +24,7 @@ window.onload = function(){
   // текущая дата
   var now = new Date();       
   // дата предстоящего события (год, месяц, число)
-  var eventDate = new Date(2017,4,17,17,34,00,00);
+  var eventDate = new Date(2017,4,20,17,34,00,00);
   var span = document.getElementById('timetoevent');
   var div = document.getElementById('beforeStartEvent');
   // если событие еще не наступило

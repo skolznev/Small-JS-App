@@ -144,7 +144,7 @@ AmCharts.ready(function() {
     //Объекты на карте
     var mapObjects = [
 	    {
-	        imageURL: "../images/et.png",
+	        imageURL: "../images/map_objects/et.png",
 	        width: 50,
       		height: 50,
 	        title: "Москва",
@@ -159,7 +159,7 @@ AmCharts.ready(function() {
 	        longitude: 39.20888230000003,
 	    }, 
 	    {
-	        imageURL: "../images/et.png",
+	        imageURL: "../images/map_objects/et.png",
 	        width: 50,
       		height: 50,
 	        title: "Новосибирск",
