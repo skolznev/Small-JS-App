@@ -51,7 +51,7 @@ AmCharts.ready(function() {
 
     //Города и другие объекты карты
     var mapObjects = [{
-        imageURL: "../../images/map_objects/et.png",
+        imageURL: "../../images/map_objects/brazzaville.png",
         width: 50,
         height: 50,
         url: "",
@@ -60,7 +60,7 @@ AmCharts.ready(function() {
         longitude: 15.242885300000012,
         description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis voluptatibus nesciunt porro aut distinctio nihil." + " Lorem: ".bold() + "50$"
     }, {
-        imageURL: "../../images/map_objects/et.png",
+        imageURL: "../../images/map_objects/addis_ababa.png",
         width: 50,
         height: 50,
         url: "",
@@ -69,7 +69,7 @@ AmCharts.ready(function() {
         longitude: 38.75776050000002,
         description: "Lorem aipsum dolor sit amet, consectetur adipisicing elit. Odit eius nostrum repudiandae odio fugit corporis." + " Lorem: ".bold() + "50$"
     }, {
-        imageURL: "../../images/map_objects/et.png",
+        imageURL: "../../images/map_objects/maputo.png",
         width: 50,
         height: 50,
         url: "",
@@ -78,7 +78,7 @@ AmCharts.ready(function() {
         longitude: 32.605135099999984,
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, eum. Nostrum neque doloribus voluptates minus." + " Lorem: ".bold() + "50$"
     }, {
-        imageURL: "../../images/map_objects/et.png",
+        imageURL: "../../images/map_objects/rabat.png",
         width: 50,
         height: 50,
         url: "",
@@ -121,9 +121,10 @@ AmCharts.ready(function() {
     */
     var dataProvider = {
         mapVar: AmCharts.maps.worldLow,
+        // zoomControlEnabled: true,
         getAreasFromMap:false, //Не показываем остальные страны
         zoomLevel: 2,
-        zoomLongitude: 30,
+        zoomLongitude: 20,
         zoomLatitude: 0,
     };
 
@@ -153,7 +154,12 @@ AmCharts.ready(function() {
      * autoZoom set to true means that the map will zoom-in when clicked on the area
      * selectedColor indicates color of the clicked area.
      */
-    
+
+    var zoomControl = map.zoomControl;
+        zoomControl.panControlEnabled = true;
+        zoomControl.zoomControlEnabled = true;
+        zoomControl.left = 280;
+        zoomControl.top = 120;
 
     // let's say we want a small map to be displayed, so let's create and add it to the map
     // map.smallMap = new AmCharts.SmallMap();

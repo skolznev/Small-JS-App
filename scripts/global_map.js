@@ -558,6 +558,9 @@ AmCharts.ready(function() {
     //Континенты
     continentsDataProvider = {
         mapVar: AmCharts.maps.continentsLow,
+        zoomLevel: 1,
+        zoomLongitude: 10,
+        zoomLatitude: 20,
         
         areas: [
         {
@@ -629,6 +632,14 @@ AmCharts.ready(function() {
             passZoomValuesToTarget: true}
         ]
     };
+
+//*************** Настройки элементов управления ****************** 
+
+    var zoomControl = map.zoomControl;
+        zoomControl.panControlEnabled = true;
+        zoomControl.zoomControlEnabled = true;
+        zoomControl.left = 20;
+        zoomControl.top = 120;
 
 //*************** Выводим содержимое на экран ******************
 
