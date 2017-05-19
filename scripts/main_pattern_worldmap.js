@@ -16,7 +16,7 @@ AmCharts.ready(function() {
         autoZoom: true,
         rollOverOutlineColor: "#40403d", //Цвет границ
         selectedColor: "#fc0", //Цвет выбранной территории
-        // color: "#BBBB00", //Цвет стран по умолчанию
+        color: "#EEEEEE", //Цвет стран по умолчанию
     };
     
     //Глобальные настройки объектов на карте
@@ -52,8 +52,8 @@ AmCharts.ready(function() {
     //Города и другие объекты карты
     var mapObjects = [{
         imageURL: "../../images/map_objects/brazzaville.png",
-        width: 50,
-        height: 50,
+        width: 100,
+        height: 100,
         url: "",
         title: "Браззавиль",
         latitude: -4.2633597,
@@ -61,8 +61,8 @@ AmCharts.ready(function() {
         description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis voluptatibus nesciunt porro aut distinctio nihil." + " Lorem: ".bold() + "50$"
     }, {
         imageURL: "../../images/map_objects/addis_ababa.png",
-        width: 50,
-        height: 50,
+        width: 100,
+        height: 100,
         url: "",
         title: "Аддис-Абеба",
         latitude: 8.9806034,
@@ -70,8 +70,8 @@ AmCharts.ready(function() {
         description: "Lorem aipsum dolor sit amet, consectetur adipisicing elit. Odit eius nostrum repudiandae odio fugit corporis." + " Lorem: ".bold() + "50$"
     }, {
         imageURL: "../../images/map_objects/maputo.png",
-        width: 50,
-        height: 50,
+        width: 100,
+        height: 100,
         url: "",
         title: "Мапуту",
         latitude: -25.891968,
@@ -79,8 +79,8 @@ AmCharts.ready(function() {
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, eum. Nostrum neque doloribus voluptates minus." + " Lorem: ".bold() + "50$"
     }, {
         imageURL: "../../images/map_objects/rabat.png",
-        width: 50,
-        height: 50,
+        width: 100,
+        height: 100,
         url: "",
         title: "Рабат",
         latitude: 33.9715904,
@@ -131,19 +131,19 @@ AmCharts.ready(function() {
     dataProvider.areas = [
           {
               id: "MZ",
-              color: "#fc0",
+              color: "#FFD740",
               title: "Мозамбик:".bold() + " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem illum officiis, doloribus. Cupiditate, expedita, autem."},
           {
               id: "CD",
-              color: "#fc0",
+              color: "#FFD740",
               title: "Республика Конго:".bold() + " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem illum officiis, doloribus. Cupiditate, expedita, autem."},
           {
               id: "ET",
-              color: "#0f0",
+              color: "#B2FF59",
               title: "Эфиопия:".bold() + " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem illum officiis, doloribus. Cupiditate, expedita, autem."},
           {
               id: "MA",
-              color: "#fc0",
+              color: "#FFD740",
               title: "Марокко:".bold() + " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem illum officiis, doloribus. Cupiditate, expedita, autem."}
           ];
 

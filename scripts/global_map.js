@@ -44,8 +44,8 @@ AmCharts.ready(function() {
     map.areasSettings = {
         autoZoom: true,
         rollOverOutlineColor: "#40403d", //Цвет границ
-        selectedColor: "#f2f23a", //Цвет выбранной территории
-        color: "#58e8c2", //Цвет стран по умолчанию	
+        selectedColor: "#C5E1A5", //Цвет выбранной территории
+        color: "#C5E1A5", //Цвет стран по умолчанию	
     };
 
     //Глобальные настройки объектов на карте
@@ -145,8 +145,8 @@ AmCharts.ready(function() {
     var mapObjects = [
 	    {
 	        imageURL: "../images/map_objects/moscow.png",
-	        width: 50,
-      		height: 50,
+	        width: 100,
+      		height: 100,
 	        title: "Москва",
 	        latitude: 55.755826,
 	        longitude: 37.6173,
@@ -154,224 +154,224 @@ AmCharts.ready(function() {
 	    }, 
 	    {
 	        imageURL: "../images/map_objects/voronezh.png",
-	        width: 50,
-      		height: 50,
+	        width: 100,
+      		height: 100,
 	        title: "Воронеж",
 	        latitude: 51.6754966,
 	        longitude: 39.20888230000003,
 	    }, 
 	    {
 	        imageURL: "../images/map_objects/novosibirsk.png",
-	        width: 50,
-      		height: 50,
+	        width: 100,
+      		height: 100,
 	        title: "Новосибирск",
 	        latitude: 55.00835259999999,
 	        longitude: 82.93573270000002,
 	    }, 
 	    {
 	        imageURL: "../images/map_objects/ekaterinburg.png",
-	        width: 50,
-      		height: 50,
+	        width: 100,
+      		height: 100,
 	        title: "Екатеринбург",
 	        latitude: 56.83892609999999,
 	        longitude: 60.60570250000001,
 	    }, 
 	    {
 	        imageURL: "../images/map_objects/petersburg.png",
-	        width: 50,
-      		height: 50,
+	        width: 100,
+      		height: 100,
 	        title: "Санкт-Петербург",
 	        latitude: 59.9342802,
 	        longitude: 30.335098600000038,
 	    }, 
 	    {
 	        imageURL: "../images/map_objects/washington.png",
-	        width: 50,
-      		height: 50,
+	        width: 100,
+      		height: 100,
 	        title: "Вашингтон",
 	        latitude: 38.9071923,
 	        longitude: -77.03687070000001,
 	    }, 
 	    {
 	        imageURL: "../images/map_objects/ottawa.png",
-	        width: 50,
-      		height: 50,
+	        width: 100,
+      		height: 100,
 	        title: "Оттава",
 	        latitude: 45.4215296,
 	        longitude: -75.69719309999999,
 	    },
 	    {
 	        imageURL: "../images/map_objects/belmopan.png",
-	        width: 50,
-      		height: 50,
+	        width: 100,
+      		height: 100,
 	        title: "Бельмопан",
 	        latitude: 17.2510114,
 	        longitude: -88.75902009999999,
 	    },
 	    {
 	        imageURL: "../images/map_objects/havana.png",
-	        width: 50,
-      		height: 50,
+	        width: 100,
+      		height: 100,
 	        title: "Гавана",
 	        latitude: 23.1135925,
 	        longitude: -82.36659559999998
 	    },
 	    {
 	        imageURL: "../images/map_objects/buenos_aires.png",
-	        width: 50,
-      		height: 50,
+	        width: 100,
+      		height: 100,
 	        title: "Буэнос-Айрес",
 	        latitude: -34.6036844,
 	        longitude: -58.381559100000004
 	    },
 	    {
 	        imageURL: "../images/map_objects/brasilia.png",
-	        width: 50,
-      		height: 50,
+	        width: 100,
+      		height: 100,
 	        title: "Бразилиа",
 	        latitude: -15.7941569,
 	        longitude: -47.88252890000001
 	    },
 	    {
 	        imageURL: "../images/map_objects/caracas.png",
-	        width: 50,
-      		height: 50,
+	        width: 100,
+      		height: 100,
 	        title: "Каракас",
 	        latitude: 10.4805937,
 	        longitude: -66.90360629999998
 	    },
 	    {
 	        imageURL: "../images/map_objects/asuncion.png",
-	        width: 50,
-      		height: 50,
+	        width: 100,
+      		height: 100,
 	        title: "Асунсьон",
 	        latitude: -25.2637399,
 	        longitude: -57.57592599999998
 	    },
 	    {
 	        imageURL: "../images/map_objects/san_marino.png",
-	        width: 50,
-      		height: 50,
+	        width: 100,
+      		height: 100,
 	        title: "Сан-Марино",
 	        latitude: 43.94236,
 	        longitude: 12.457776999999965
 	    },
 	    {
 	        imageURL: "../images/map_objects/bratislava.png",
-	        width: 50,
-      		height: 50,
+	        width: 100,
+      		height: 100,
 	        title: "Братислава",
 	        latitude: 48.1485965,
 	        longitude: 17.107747700000004
 	    },
 	    {
 	        imageURL: "../images/map_objects/reykjavik.png",
-	        width: 50,
-      		height: 50,
+	        width: 100,
+      		height: 100,
 	        title: "Рейкьявик",
 	        latitude: 64.12652059999999,
 	        longitude: -21.817439299999933
 	    },
 	    {
 	        imageURL: "../images/map_objects/lisbon.png",
-	        width: 50,
-      		height: 50,
+	        width: 100,
+      		height: 100,
 	        title: "Лиссабон",
 	        latitude: 38.7222524,
 	        longitude: -9.139336599999979
 	    },
 	    {
 	        imageURL: "../images/map_objects/phnom_penh.png",
-	        width: 50,
-      		height: 50,
+	        width: 100,
+      		height: 100,
 	        title: "Пномпень",
 	        latitude: 11.146323170614325,
 	        longitude: 105.27668828437504
 	    },
 	    {
 	        imageURL: "../images/map_objects/beijing.png",
-	        width: 50,
-      		height: 50,
+	        width: 100,
+      		height: 100,
 	        title: "Пекин",
 	        latitude: 39.90419989999999,
 	        longitude: 116.40739630000007
 	    },
 	    {
 	        imageURL: "../images/map_objects/riyadh.png",
-	        width: 50,
-      		height: 50,
+	        width: 100,
+      		height: 100,
 	        title: "Эр-Рияд",
 	        latitude: 24.7135517,
 	        longitude: 46.67529569999999
 	    },
 	    {
 	        imageURL: "../images/map_objects/tehran.png",
-	        width: 50,
-      		height: 50,
+	        width: 100,
+      		height: 100,
 	        title: "Тегеран",
 	        latitude: 35.6891975,
 	        longitude: 51.388973599999986
 	    },
 	    {
 	        imageURL: "../images/map_objects/brazzaville.png",
-	        width: 50,
-      		height: 50,
+	        width: 100,
+      		height: 100,
 	        title: "Браззавиль",
 	        latitude: -4.2633597,
 	        longitude: 15.242885300000012
 	    },
 	    {
 	        imageURL: "../images/map_objects/addis_ababa.png",
-	        width: 50,
-      		height: 50,
+	        width: 100,
+      		height: 100,
 	        title: "Аддис-Абеба",
 	        latitude: 8.9806034,
 	        longitude: 38.75776050000002
 	    },
 	    {
 	        imageURL: "../images/map_objects/maputo.png",
-	        width: 50,
-      		height: 50,
+	        width: 100,
+      		height: 100,
 	        title: "Мапуту",
 	        latitude: -25.891968,
 	        longitude: 32.605135099999984
 	    },
 	    {
 	        imageURL: "../images/map_objects/rabat.png",
-	        width: 50,
-      		height: 50,
+	        width: 100,
+      		height: 100,
 	        title: "Рабат",
 	        latitude: 33.9715904,
 	        longitude: -6.849812899999961
 	    },
 	    {
 	        imageURL: "../images/map_objects/canberra.png",
-	        width: 50,
-      		height: 50,
+	        width: 100,
+      		height: 100,
 	        title: "Канберра",
 	        latitude: -35.2809368,
 	        longitude: 149.13000920000002
 	    },
 	    {
 	        imageURL: "../images/map_objects/wellington.png",
-	        width: 50,
-      		height: 50,
+	        width: 100,
+      		height: 100,
 	        title: "Веллингтон",
 	        latitude: -41.1864603,
 	        longitude: 175.1
 	    },
 	    {
 	        imageURL: "../images/map_objects/port_vila.png",
-	        width: 50,
-      		height: 50,
+	        width: 100,
+      		height: 100,
 	        title: "Порт-Вила",
 	        latitude: -16.1332512,
 	        longitude: 167.42732450000003
 	    },
 	    {
 	        imageURL: "../images/map_objects/suva.png",
-	        width: 50,
-      		height: 50,
+	        width: 100,
+      		height: 100,
 	        title: "Сува",
 	        latitude: -18,
 	        longitude: 178.4500789
@@ -566,7 +566,7 @@ AmCharts.ready(function() {
         {
             id: "africa",
             linkToObject: worldDataProvider,
-            color: "#f7ec11",
+            color: "#FFF59D",
             title: "Африка",
 			// pattern: 
 			// 	{
@@ -578,7 +578,7 @@ AmCharts.ready(function() {
         {
             id: "asia",
             linkToObject: worldDataProvider,
-            color: "#ffa436",
+            color: "#FFCC80",
             title: "Азия",
    //          pattern: {
 			// 	url: "patterns/white/asia.jpg",
@@ -589,7 +589,7 @@ AmCharts.ready(function() {
         {
             id: "australia",
             linkToObject: worldDataProvider,
-            color: "#f56eff",
+            color: "#CE93D8",
             title: "Океания",
    //          pattern: {
 			// 	url: "patterns/white/afrika.jpg",
@@ -600,7 +600,7 @@ AmCharts.ready(function() {
         {
             id: "europe",
             linkToObject: worldDataProvider,
-            color: "#ff6383",
+            color: "#EF9A9A",
             title: "Европа",
    //          pattern: {
 			// 	url: "patterns/white/evropa.jpg",
@@ -611,7 +611,7 @@ AmCharts.ready(function() {
         {
             id: "north_america",
             linkToObject: worldDataProvider,
-            color: "#54a1ff",
+            color: "#90CAF9",
             title: "Северная Америка",
    //          pattern: {
 			// 	url: "patterns/white/north_america.jpg",
@@ -622,7 +622,7 @@ AmCharts.ready(function() {
         {
             id: "south_america",
             linkToObject: worldDataProvider,
-            color: "#04d900",
+            color: "#A5D6A7",
             title: "Южная Америка",
    //          pattern: {
 			// 	url: "patterns/white/south_america.jpg",
