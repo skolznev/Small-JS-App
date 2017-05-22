@@ -30,52 +30,52 @@ AmCharts.ready(function() {
         id: "line1",
         arc: -0.85,
         alpha: 0.3,
-        latitudes: [-4.2633597, 8.9806034],
-        longitudes: [15.242885300000012, 38.75776050000002]
+        latitudes: [48.1485965, 64.12652059999999],
+        longitudes: [17.107747700000004, -21.817439299999933]
     }, {
         id: "line2",
         alpha: 0,
         color: "#000000",
-        latitudes: [-4.2633597, 8.9806034],
-        longitudes: [15.242885300000012, 38.75776050000002]
+        latitudes: [48.1485965, 64.12652059999999],
+        longitudes: [17.107747700000004, -21.817439299999933]
     }];
 
     //Города и другие объекты карты
     var mapObjects = [{
-        imageURL: "../../images/map_objects/brazzaville.png",
+        imageURL: "../../images/map_objects/san_marino.png",
         width: 100,
         height: 100,
         url: "",
-        title: "Браззавиль",
-        latitude: -4.2633597,
-        longitude: 15.242885300000012,
+        title: "Сан-Марино",
+        latitude: 43.94236,
+        longitude: 12.457776999999965,
         description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis voluptatibus nesciunt porro aut distinctio nihil." + " Lorem: ".bold() + "50$"
     }, {
-        imageURL: "../../images/map_objects/addis_ababa.png",
+        imageURL: "../../images/map_objects/bratislava.png",
         width: 100,
         height: 100,
         url: "",
-        title: "Аддис-Абеба",
-        latitude: 8.9806034,
-        longitude: 38.75776050000002,
+        title: "Братислава",
+        latitude: 48.1485965,
+        longitude: 17.107747700000004,
         description: "Lorem aipsum dolor sit amet, consectetur adipisicing elit. Odit eius nostrum repudiandae odio fugit corporis." + " Lorem: ".bold() + "50$"
     }, {
-        imageURL: "../../images/map_objects/maputo.png",
+        imageURL: "../../images/map_objects/reykjavik.png",
         width: 100,
         height: 100,
         url: "",
-        title: "Мапуту",
-        latitude: -25.891968,
-        longitude: 32.605135099999984,
+        title: "Рейкьявик",
+        latitude: 64.12652059999999,
+        longitude: -21.817439299999933,
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, eum. Nostrum neque doloribus voluptates minus." + " Lorem: ".bold() + "50$"
     }, {
-        imageURL: "../../images/map_objects/rabat.png",
+        imageURL: "../../images/map_objects/lisbon.png",
         width: 100,
         height: 100,
         url: "",
-        title: "Рабат",
-        latitude: 33.9715904,
-        longitude: -6.849812899999961,
+        title: "Лиссабон",
+        latitude: 38.7222524,
+        longitude: -9.139336599999979,
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius id doloribus aliquid expedita incidunt alias!" + " Lorem: ".bold() + "50$"
     },{
         svgPath: planeSVG,
@@ -104,29 +104,29 @@ AmCharts.ready(function() {
         mapVar: AmCharts.maps.worldLow,
         // zoomControlEnabled: true,
         getAreasFromMap:false, //Не показываем остальные страны
-        zoomLevel: 2,
-        zoomLongitude: 20,
-        zoomLatitude: 0,
+        zoomLevel: 3,
+        zoomLongitude: 0,
+        zoomLatitude: 53,
     };
 
     dataProvider.areas = [
           {
-              id: "MZ",
+              id: "SM",
               color: "#FFD740",
-              title: "Мозамбик:".bold() + " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem illum officiis, doloribus. Cupiditate, expedita, autem."},
+              title: "Сан-Марино:".bold() + " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem illum officiis, doloribus. Cupiditate, expedita, autem."},
           {
-              id: "CD",
-              color: "#FFD740",
-              title: "Республика Конго:".bold() + " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem illum officiis, doloribus. Cupiditate, expedita, autem."},
-          {
-              id: "ET",
+              id: "SK",
               color: "#B2FF59",
-              title: "Эфиопия:".bold() + " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem illum officiis, doloribus. Cupiditate, expedita, autem."},
+              title: "Словакия:".bold() + " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem illum officiis, doloribus. Cupiditate, expedita, autem."},
           {
-              id: "MA",
+              id: "IS",
               color: "#FFD740",
-              title: "Марокко:".bold() + " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem illum officiis, doloribus. Cupiditate, expedita, autem."}
-          ];
+              title: "Исландия:".bold() + " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem illum officiis, doloribus. Cupiditate, expedita, autem."},
+          {
+              id: "PT",
+              color: "#FFD740",
+              title: "Португалия:".bold() + " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem illum officiis, doloribus. Cupiditate, expedita, autem."}
+    ];
 
     map.dataProvider = dataProvider;
 
