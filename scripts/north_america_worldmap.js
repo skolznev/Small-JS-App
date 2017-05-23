@@ -30,52 +30,52 @@ AmCharts.ready(function() {
         id: "line1",
         arc: -0.85,
         alpha: 0.3,
-        latitudes: [-35.2809368, -41.1864603],
-        longitudes: [149.13000920000002, 175.1]
+        latitudes: [38.9071923, 23.1135925],
+        longitudes: [-77.03687070000001, -82.36659559999998]
     }, {
         id: "line2",
         alpha: 0,
         color: "#000000",
-        latitudes: [-35.2809368, -41.1864603],
-        longitudes: [149.13000920000002, 175.1]
+        latitudes: [38.9071923, 23.1135925],
+        longitudes: [-77.03687070000001, -82.36659559999998]
     }];
 
     //Города и другие объекты карты
     var mapObjects = [{
-        imageURL: "../../images/map_objects/canberra.png",
-        width: 100,
+        imageURL: "../../images/map_objects/washington.png",
+        width: 40,
         height: 100,
         url: "",
-        title: "Канберра",
-        latitude: -35.2809368,
-        longitude: 149.13000920000002,
+        title: "Вашингтон",
+        latitude: 38.9071923,
+        longitude: -77.03687070000001,
         description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis voluptatibus nesciunt porro aut distinctio nihil." + " Lorem: ".bold() + "50$"
     }, {
-        imageURL: "../../images/map_objects/wellington.png",
-        width: 100,
+        imageURL: "../../images/map_objects/ottawa.png",
+        width: 40,
         height: 100,
         url: "",
-        title: "Веллингтон",
-        latitude: -41.1864603,
-        longitude: 175.1,
+        title: "Оттава",
+        latitude: 45.4215296,
+        longitude: -75.69719309999999,
         description: "Lorem aipsum dolor sit amet, consectetur adipisicing elit. Odit eius nostrum repudiandae odio fugit corporis." + " Lorem: ".bold() + "50$"
     }, {
-        imageURL: "../../images/map_objects/port_vila.png",
-        width: 100,
+        imageURL: "../../images/map_objects/belmopan.png",
+        width: 40,
         height: 100,
         url: "",
-        title: "Порт-Вила",
-        latitude: -16.1332512,
-        longitude: 167.42732450000003,
+        title: "Бельмопан",
+        latitude: 17.2510114,
+        longitude: -88.75902009999999,
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, eum. Nostrum neque doloribus voluptates minus." + " Lorem: ".bold() + "50$"
     }, {
-        imageURL: "../../images/map_objects/suva.png",
-        width: 100,
+        imageURL: "../../images/map_objects/havana.png",
+        width: 40,
         height: 100,
         url: "",
-        title: "Сува",
-        latitude: -18,
-        longitude: 178.4500789,
+        title: "Гавана",
+        latitude: 23.1135925,
+        longitude: -82.36659559999998,
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius id doloribus aliquid expedita incidunt alias!" + " Lorem: ".bold() + "50$"
     },{
         svgPath: planeSVG,
@@ -105,8 +105,8 @@ AmCharts.ready(function() {
         // zoomControlEnabled: true,
         getAreasFromMap:false, //Не показываем остальные страны
         zoomLevel: 3,
-        zoomLongitude: 140,
-        zoomLatitude: -30,
+        zoomLongitude: -100,
+        zoomLatitude: 35,
     };
 
     dataProvider.areas = [

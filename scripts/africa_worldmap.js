@@ -43,7 +43,7 @@ AmCharts.ready(function() {
     //Города и другие объекты карты
     var mapObjects = [{
         imageURL: "../../images/map_objects/brazzaville.png",
-        width: 100,
+        width: 40,
         height: 100,
         url: "",
         title: "Браззавиль",
@@ -52,7 +52,7 @@ AmCharts.ready(function() {
         description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis voluptatibus nesciunt porro aut distinctio nihil." + " Lorem: ".bold() + "50$"
     }, {
         imageURL: "../../images/map_objects/addis_ababa.png",
-        width: 100,
+        width: 40,
         height: 100,
         url: "",
         title: "Аддис-Абеба",
@@ -61,7 +61,7 @@ AmCharts.ready(function() {
         description: "Lorem aipsum dolor sit amet, consectetur adipisicing elit. Odit eius nostrum repudiandae odio fugit corporis." + " Lorem: ".bold() + "50$"
     }, {
         imageURL: "../../images/map_objects/maputo.png",
-        width: 100,
+        width: 40,
         height: 100,
         url: "",
         title: "Мапуту",
@@ -70,7 +70,7 @@ AmCharts.ready(function() {
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, eum. Nostrum neque doloribus voluptates minus." + " Lorem: ".bold() + "50$"
     }, {
         imageURL: "../../images/map_objects/rabat.png",
-        width: 100,
+        width: 40,
         height: 100,
         url: "",
         title: "Рабат",

@@ -145,7 +145,7 @@ AmCharts.ready(function() {
     var mapObjects = [
 	    {
 	        imageURL: "../images/map_objects/moscow.png",
-	        width: 100,
+	        width: 40,
       		height: 100,
 	        title: "Москва",
 	        latitude: 55.755826,
@@ -154,7 +154,7 @@ AmCharts.ready(function() {
 	    }, 
 	    {
 	        imageURL: "../images/map_objects/voronezh.png",
-	        width: 100,
+	        width: 40,
       		height: 100,
 	        title: "Воронеж",
 	        latitude: 51.6754966,
@@ -162,7 +162,7 @@ AmCharts.ready(function() {
 	    }, 
 	    {
 	        imageURL: "../images/map_objects/novosibirsk.png",
-	        width: 100,
+	        width: 40,
       		height: 100,
 	        title: "Новосибирск",
 	        latitude: 55.00835259999999,
@@ -170,7 +170,7 @@ AmCharts.ready(function() {
 	    }, 
 	    {
 	        imageURL: "../images/map_objects/ekaterinburg.png",
-	        width: 100,
+	        width: 40,
       		height: 100,
 	        title: "Екатеринбург",
 	        latitude: 56.83892609999999,
@@ -178,7 +178,7 @@ AmCharts.ready(function() {
 	    }, 
 	    {
 	        imageURL: "../images/map_objects/petersburg.png",
-	        width: 100,
+	        width: 40,
       		height: 100,
 	        title: "Санкт-Петербург",
 	        latitude: 59.9342802,
@@ -186,7 +186,7 @@ AmCharts.ready(function() {
 	    }, 
 	    {
 	        imageURL: "../images/map_objects/washington.png",
-	        width: 100,
+	        width: 40,
       		height: 100,
 	        title: "Вашингтон",
 	        latitude: 38.9071923,
@@ -194,7 +194,7 @@ AmCharts.ready(function() {
 	    }, 
 	    {
 	        imageURL: "../images/map_objects/ottawa.png",
-	        width: 100,
+	        width: 40,
       		height: 100,
 	        title: "Оттава",
 	        latitude: 45.4215296,
@@ -202,7 +202,7 @@ AmCharts.ready(function() {
 	    },
 	    {
 	        imageURL: "../images/map_objects/belmopan.png",
-	        width: 100,
+	        width: 40,
       		height: 100,
 	        title: "Бельмопан",
 	        latitude: 17.2510114,
@@ -210,7 +210,7 @@ AmCharts.ready(function() {
 	    },
 	    {
 	        imageURL: "../images/map_objects/havana.png",
-	        width: 100,
+	        width: 40,
       		height: 100,
 	        title: "Гавана",
 	        latitude: 23.1135925,
@@ -218,7 +218,7 @@ AmCharts.ready(function() {
 	    },
 	    {
 	        imageURL: "../images/map_objects/buenos_aires.png",
-	        width: 100,
+	        width: 40,
       		height: 100,
 	        title: "Буэнос-Айрес",
 	        latitude: -34.6036844,
@@ -226,7 +226,7 @@ AmCharts.ready(function() {
 	    },
 	    {
 	        imageURL: "../images/map_objects/brasilia.png",
-	        width: 100,
+	        width: 40,
       		height: 100,
 	        title: "Бразилиа",
 	        latitude: -15.7941569,
@@ -234,7 +234,7 @@ AmCharts.ready(function() {
 	    },
 	    {
 	        imageURL: "../images/map_objects/caracas.png",
-	        width: 100,
+	        width: 40,
       		height: 100,
 	        title: "Каракас",
 	        latitude: 10.4805937,
@@ -242,7 +242,7 @@ AmCharts.ready(function() {
 	    },
 	    {
 	        imageURL: "../images/map_objects/asuncion.png",
-	        width: 100,
+	        width: 40,
       		height: 100,
 	        title: "Асунсьон",
 	        latitude: -25.2637399,
@@ -250,7 +250,7 @@ AmCharts.ready(function() {
 	    },
 	    {
 	        imageURL: "../images/map_objects/san_marino.png",
-	        width: 100,
+	        width: 40,
       		height: 100,
 	        title: "Сан-Марино",
 	        latitude: 43.94236,
@@ -258,7 +258,7 @@ AmCharts.ready(function() {
 	    },
 	    {
 	        imageURL: "../images/map_objects/bratislava.png",
-	        width: 100,
+	        width: 40,
       		height: 100,
 	        title: "Братислава",
 	        latitude: 48.1485965,
@@ -266,7 +266,7 @@ AmCharts.ready(function() {
 	    },
 	    {
 	        imageURL: "../images/map_objects/reykjavik.png",
-	        width: 100,
+	        width: 40,
       		height: 100,
 	        title: "Рейкьявик",
 	        latitude: 64.12652059999999,
@@ -274,7 +274,7 @@ AmCharts.ready(function() {
 	    },
 	    {
 	        imageURL: "../images/map_objects/lisbon.png",
-	        width: 100,
+	        width: 40,
       		height: 100,
 	        title: "Лиссабон",
 	        latitude: 38.7222524,
@@ -282,7 +282,7 @@ AmCharts.ready(function() {
 	    },
 	    {
 	        imageURL: "../images/map_objects/phnom_penh.png",
-	        width: 100,
+	        width: 40,
       		height: 100,
 	        title: "Пномпень",
 	        latitude: 11.146323170614325,
@@ -290,7 +290,7 @@ AmCharts.ready(function() {
 	    },
 	    {
 	        imageURL: "../images/map_objects/beijing.png",
-	        width: 100,
+	        width: 40,
       		height: 100,
 	        title: "Пекин",
 	        latitude: 39.90419989999999,
@@ -298,7 +298,7 @@ AmCharts.ready(function() {
 	    },
 	    {
 	        imageURL: "../images/map_objects/riyadh.png",
-	        width: 100,
+	        width: 40,
       		height: 100,
 	        title: "Эр-Рияд",
 	        latitude: 24.7135517,
@@ -306,7 +306,7 @@ AmCharts.ready(function() {
 	    },
 	    {
 	        imageURL: "../images/map_objects/tehran.png",
-	        width: 100,
+	        width: 40,
       		height: 100,
 	        title: "Тегеран",
 	        latitude: 35.6891975,
@@ -314,7 +314,7 @@ AmCharts.ready(function() {
 	    },
 	    {
 	        imageURL: "../images/map_objects/brazzaville.png",
-	        width: 100,
+	        width: 40,
       		height: 100,
 	        title: "Браззавиль",
 	        latitude: -4.2633597,
@@ -322,7 +322,7 @@ AmCharts.ready(function() {
 	    },
 	    {
 	        imageURL: "../images/map_objects/addis_ababa.png",
-	        width: 100,
+	        width: 40,
       		height: 100,
 	        title: "Аддис-Абеба",
 	        latitude: 8.9806034,
@@ -330,7 +330,7 @@ AmCharts.ready(function() {
 	    },
 	    {
 	        imageURL: "../images/map_objects/maputo.png",
-	        width: 100,
+	        width: 40,
       		height: 100,
 	        title: "Мапуту",
 	        latitude: -25.891968,
@@ -338,7 +338,7 @@ AmCharts.ready(function() {
 	    },
 	    {
 	        imageURL: "../images/map_objects/rabat.png",
-	        width: 100,
+	        width: 40,
       		height: 100,
 	        title: "Рабат",
 	        latitude: 33.9715904,
@@ -346,7 +346,7 @@ AmCharts.ready(function() {
 	    },
 	    {
 	        imageURL: "../images/map_objects/canberra.png",
-	        width: 100,
+	        width: 40,
       		height: 100,
 	        title: "Канберра",
 	        latitude: -35.2809368,
@@ -354,7 +354,7 @@ AmCharts.ready(function() {
 	    },
 	    {
 	        imageURL: "../images/map_objects/wellington.png",
-	        width: 100,
+	        width: 40,
       		height: 100,
 	        title: "Веллингтон",
 	        latitude: -41.1864603,
@@ -362,7 +362,7 @@ AmCharts.ready(function() {
 	    },
 	    {
 	        imageURL: "../images/map_objects/port_vila.png",
-	        width: 100,
+	        width: 40,
       		height: 100,
 	        title: "Порт-Вила",
 	        latitude: -16.1332512,
@@ -370,7 +370,7 @@ AmCharts.ready(function() {
 	    },
 	    {
 	        imageURL: "../images/map_objects/suva.png",
-	        width: 100,
+	        width: 40,
       		height: 100,
 	        title: "Сува",
 	        latitude: -18,

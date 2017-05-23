@@ -1,0 +1,19 @@
+body {
+    background-image: url(../images/background/bg-kadr-100.png);
+}
+.board {
+	margin: 0 15%; 
+}
+.board p{
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+}
+th{
+	text-align: center;
+	font-size: 1.2em;
+}
+td {
+	text-align: center;
+	font-size: 1.2em;
+}
