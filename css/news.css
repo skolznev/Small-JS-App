@@ -1,0 +1,24 @@
+body {
+    background-image: url(../images/background/bg-kadr-100.png);
+}
+.news {
+	margin: 0 15%;
+	margin-bottom: 100px;
+}
+.panel-heading p{
+	position: relative;
+	bottom: 70px;
+	height: 0;
+	text-align: center;
+	font-size: 1.7em;
+	font-weight: bold;
+}
+.head-news {
+	font-size: 1.3em;
+	padding: 20px;
+}
+.panel-body {
+	padding: 20px;
+}
+
+

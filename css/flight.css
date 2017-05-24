@@ -1,17 +1,19 @@
 body {
-    background-image: url(../images/flight.jpg);
+    background-image: url(../images/background/flight.jpg);
+    background-repeat: no-repeat;
 }
 .textAttention {
     position: absolute;
-    left: 10%;
-    font-size: 2.5em;
+    left: 5%;
+    top: 0;
+    font-size: 2em;
     color: #fff;
     text-shadow: #000 0 0 10px;
 }
 #beforeStartEvent {
     position: absolute;
-    top: 30%;
-    left: 40%;
+    top: 500px;
+    left: 5%;
     font-size: 3em;
     color: #fff200;
     text-shadow: #000 0 0 10px;
@@ -21,8 +23,8 @@ body {
 }
 .textThanks {
     position: absolute;
-    top: 80%;
-    left: 60%;
+    top: 700px;
+    left: 5%;
     font-size: 3em;
     color: #fff;
     text-shadow: #000 0 0 10px;

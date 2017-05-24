@@ -45,12 +45,13 @@
 	}
 }
 #event-mess {
-  position: fixed;
-  left: 75%;
-  top: 25px;
+  position: relative;
   text-align: right;
   color: #777;
   font-size: 1.1em;
+  height: 0;
+  bottom: 70px;
+  right: 20px;
 }
 #timetoevent {
 	font-weight: bold;
