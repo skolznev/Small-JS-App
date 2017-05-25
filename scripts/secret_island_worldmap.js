@@ -38,6 +38,15 @@ AmCharts.ready(function() {
         latitude: -18.8791902,
         longitude: 47.50790549999999,
         description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis voluptatibus nesciunt porro aut distinctio nihil."
+    },{
+        imageURL: "../../images/map_objects/salut.gif",
+        width: 150,
+        height: 120,
+        url: "",
+        title: "Антананариву",
+        latitude: -18.8791902,
+        longitude: 47.50790549999999,
+        description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis voluptatibus nesciunt porro aut distinctio nihil."
     }, {
         imageURL: "../../images/map_objects/shop.png",
         width: 50,
