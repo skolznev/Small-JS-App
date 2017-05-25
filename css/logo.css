@@ -1,0 +1,41 @@
+body {
+    background-image: url(../images/background/bg-kadr-100.png);
+}
+/*.col-md-2 {
+	margin: 10px;
+	width: 128;
+	text-align: center;
+}
+.panel-heading p{
+	position: relative;
+	height: 0;
+	text-align: center;
+	font-size: 1.7em;
+	font-weight: bold;
+}
+.panel-body {
+	padding: 20px;
+	text-align: center;
+}
+.thumbnail {
+	width: 200px;
+	margin: 1%;
+}*/
+.row {
+	/*position: relative;*/
+	margin: 1% 15% 4% 15%;
+	/*bottom: 100px;*/
+}
+.thumbnail {
+	text-align: center;
+	font-size: 1.2em;
+}
+.thumbnail:hover {
+	border: 1px solid #93cbee;
+}
+.title_row {
+	text-align: center;
+	font-size: 1.7em;
+	font-weight: bold;
+}
+
