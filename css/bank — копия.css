@@ -1,0 +1,23 @@
+body {
+    background-image: url(../images/background/bg-kadr-100.png);
+}
+.bank {
+	margin: 0 15%;
+	margin-bottom: 100px;
+}
+.panel-heading p{
+	position: relative;
+	bottom: 150px;
+	height: 0;
+	text-align: center;
+	font-size: 1.7em;
+	font-weight: bold;
+}
+.panel-body {
+	padding: 20px;
+}
+.panel-body img {
+	float: right;
+}
+
+

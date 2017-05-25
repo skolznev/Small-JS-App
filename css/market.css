@@ -1,0 +1,30 @@
+body {
+    background-image: url(../images/background/bg-kadr-100.png);
+}
+.market {
+	margin: 0 15%;
+	margin-bottom: 100px;
+}
+.main-head {
+	/*position: relative;*/
+	/*width: 100%;*/
+}
+.market_logo {
+	position: relative;
+	text-align: center;
+	top: -10px;
+
+}
+.panel-body {
+	padding: 20px;
+}
+.desc {
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.products {
+	text-align: center;
+}
+
+
