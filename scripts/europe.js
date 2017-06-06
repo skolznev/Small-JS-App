@@ -7,7 +7,7 @@ var map = AmCharts.makeChart( "chartdiv", {
     zoomLongitude: 10,
     zoomLatitude: 52,
     areas: [ {
-        id: "SM",
+        id: "IT",
         color: "#f00"
       }, {
         id: "SK",
@@ -21,7 +21,7 @@ var map = AmCharts.makeChart( "chartdiv", {
       }
     ]
   },
-
+ 
   areasSettings: {
     rollOverOutlineColor: "#FFFFFF",
     rollOverColor: "#CC0000",
@@ -29,5 +29,5 @@ var map = AmCharts.makeChart( "chartdiv", {
     unlistedAreasAlpha: 1, //0 - не показывать остальные страны
     // unlistedAreasColor: "#8dd9ef" //Цвет заблокированных стран
   }
-
+ 
 } );

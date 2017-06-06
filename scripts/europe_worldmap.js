@@ -1,8 +1,8 @@
 var planeSVG = "m2,106h28l24,30h72l-44,-133h35l80,132h98c21,0 21,34 0,34l-98,0 -80,134h-35l43,-133h-71l-24,30h-28l15,-47";
-
+ 
 AmCharts.ready(function() {
     var map = new AmCharts.AmMap();
-
+ 
     map.areasSettings = {
         autoZoom: true,
         rollOverOutlineColor: "#40403d", //Цвет границ
@@ -24,7 +24,7 @@ AmCharts.ready(function() {
         color: "#585869",
         alpha: 0.4
     };
-
+ 
     //Вектора для соединительных линий
     var lines = [{
         id: "line1",
@@ -39,16 +39,16 @@ AmCharts.ready(function() {
         latitudes: [48.1485965, 64.12652059999999],
         longitudes: [17.107747700000004, -21.817439299999933]
     }];
-
+ 
     //Города и другие объекты карты
     var mapObjects = [{
-        imageURL: "../../images/map_objects/san_marino.png",
+        imageURL: "../../images/map_objects/italy.png",
         width: 40,
         height: 100,
         url: "",
-        title: "Сан-Марино",
-        latitude: 43.94236,
-        longitude: 12.457776999999965,
+        title: "Рим",
+        latitude: 41.8919300,
+        longitude: 12.5113300,
         description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis voluptatibus nesciunt porro aut distinctio nihil." + " Lorem: ".bold() + "50$"
     }, {
         imageURL: "../../images/map_objects/bratislava.png",
@@ -99,7 +99,7 @@ AmCharts.ready(function() {
         scale: 0.03,
         positionScale: 1.8
     }];
-
+ 
     var dataProvider = {
         mapVar: AmCharts.maps.worldLow,
         // zoomControlEnabled: true,
@@ -108,12 +108,12 @@ AmCharts.ready(function() {
         zoomLongitude: 0,
         zoomLatitude: 53,
     };
-
+ 
     dataProvider.areas = [
           {
-              id: "SM",
+              id: "IT",
               color: "#FFD740",
-              title: "Сан-Марино:".bold() + " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem illum officiis, doloribus. Cupiditate, expedita, autem."},
+              title: "Италия:".bold() + " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem illum officiis, doloribus. Cupiditate, expedita, autem."},
           {
               id: "SK",
               color: "#B2FF59",
@@ -127,18 +127,18 @@ AmCharts.ready(function() {
               color: "#FFD740",
               title: "Португалия:".bold() + " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem illum officiis, doloribus. Cupiditate, expedita, autem."}
     ];
-
+ 
     map.dataProvider = dataProvider;
-
+ 
     var zoomControl = map.zoomControl;
         zoomControl.panControlEnabled = true;
         zoomControl.zoomControlEnabled = true;
         zoomControl.left = 280;
         zoomControl.top = 120;
-
+ 
     // map.smallMap = new AmCharts.SmallMap();
     dataProvider.images = mapObjects;
     dataProvider.lines = lines;
-
+ 
     map.write("mapdiv");
 });
