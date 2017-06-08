@@ -66,7 +66,7 @@
                   title: "Буэнос-Айрес",
                   latitude: -34.6036844,
                   longitude: -58.381559100000004,
-                  description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis voluptatibus nesciunt porro aut distinctio nihil." + " Lorem: ".bold() + "50$"
+                  description: "Time Zone".bold()
               }, {
                   imageURL: "../../images/map_objects/brasilia.png",
                   width: 40,
@@ -75,7 +75,7 @@
                   title: "Бразилиа",
                   latitude: -15.7941569,
                   longitude: -47.88252890000001,
-                  description: "Lorem aipsum dolor sit amet, consectetur adipisicing elit. Odit eius nostrum repudiandae odio fugit corporis." + " Lorem: ".bold() + "50$"
+                  description: "Смешные истории".bold()
               }, {
                   imageURL: "../../images/map_objects/caracas.png",
                   width: 40,
@@ -84,7 +84,7 @@
                   title: "Каракас",
                   latitude: 10.4805937,
                   longitude: -66.90360629999998,
-                  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, eum. Nostrum neque doloribus voluptates minus." + " Lorem: ".bold() + "50$"
+                  description: "Головоломки".bold()
               }, {
                   imageURL: "../../images/map_objects/asuncion.png",
                   width: 40,
@@ -93,7 +93,7 @@
                   title: "Асунсьон",
                   latitude: -25.2637399,
                   longitude: -57.57592599999998,
-                  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius id doloribus aliquid expedita incidunt alias!" + " Lorem: ".bold() + "50$"
+                  description: "Транзитная страна".bold()
               },{
                   svgPath: planeSVG,
                   positionOnLine: 0,
@@ -129,20 +129,20 @@
               dataProvider.areas = [
                     {
                         id: "AR",
-                        color: "#B2FF59",
-                        title: "Аргентина:".bold() + " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem illum officiis, doloribus. Cupiditate, expedita, autem."},
+                        color: "#FFD740",
+                        title: "Аргентина:".bold() + " В столице Аргентины находится самая длинная улица в мире и имеет двадцать тысяч номеров домов. Сама улица называется «Проспект 9 июля»"},
                     {
                         id: "BR",
                         color: "#FFD740",
-                        title: "Бразилия:".bold() + " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem illum officiis, doloribus. Cupiditate, expedita, autem."},
+                        title: "Бразилия:".bold() + " В Рио-де-Жанейро с 22:00 до 5:00 утра водители автомобилей могут ездить на красный свет светофора. Эта мера призвана уменьшить риск автомобильного ограбления."},
                     {
                         id: "VE",
                         color: "#FFD740",
-                        title: "Венесуэла:".bold() + " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem illum officiis, doloribus. Cupiditate, expedita, autem."},
+                        title: "Венесуэла:".bold() + "  В Венесуэле много пластических хирургов, ведь очень придирчиво к своей внешности относятся не только женщины, но и мужчины."},
                     {
                         id: "PY",
-                        color: "#FFD740",
-                        title: "Парагвай:".bold() + " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem illum officiis, doloribus. Cupiditate, expedita, autem."}
+                        color: "#B2FF59",
+                        title: "Парагвай:".bold() + " В Парагвае нет дверных звонков, и стучать в дверь не принято. Вместо этого здесь хлопают в ладоши."}
               ];
 
               map.dataProvider = dataProvider;
@@ -318,24 +318,24 @@
             <!-- Основной баланс -->
             <div class="main_balance" data-toggle="modal" data-target="#mainBalance">
                 <img src="../../images/buttons/coin.gif" alt="coin">
-                <div id="count_balance" title="Баланс команды">5000</div><!-- Привязать к Access итоговую сумму на счету команды -->
-                <div title="Кредит">+300 <i class="fa fa-credit-card" aria-hidden="true"></i></div><!-- Привязать к Access сумму кредита, который взяла команда-->
+                <div id="count_balance" title="Баланс команды">25000</div><!-- Привязать к Access итоговую сумму на счету команды -->
+                <div title="Кредит">+0 <i class="fa fa-credit-card" aria-hidden="true"></i></div><!-- Привязать к Access сумму кредита, который взяла команда-->
             </div>
             <!-- Достижения команд (ачивки) -->
             <div class="achivki">
-              <img src="../../images/buttons/lawyer_achivka_1.png" alt="Ачивка механика" title="Достижения юристов"><!-- Привязать к Access названия картинок:
+              <img src="../../images/buttons/lawyer_achivka_0.png" alt="Ачивка механика" title="Достижения юристов"><!-- Привязать к Access названия картинок:
               lawyer_achivka_0 - нет ачивок
               lawyer_achivka_1 - 1 ачивка
               lawyer_achivka_2 - 2 ачивки
               lawyer_achivka_3 - 3 ачивки
               -->
-              <img src="../../images/buttons/mech_achivka_2.png" alt="Ачивка механика" title="Достижения механиков"><!-- Привязать к Access названия картинок:
+              <img src="../../images/buttons/mech_achivka_0.png" alt="Ачивка механика" title="Достижения механиков"><!-- Привязать к Access названия картинок:
               mech_achivka_0 - нет ачивок
               mech_achivka_1 - 1 ачивка
               mech_achivka_2 - 2 ачивки
               mech_achivka_3 - 3 ачивки
               -->
-              <img src="../../images/buttons/doc_achivka_3.png" alt="Ачивка механика" title="Достижения докторов"><!-- Привязать к Access названия картинок:
+              <img src="../../images/buttons/doc_achivka_0.png" alt="Ачивка механика" title="Достижения докторов"><!-- Привязать к Access названия картинок:
               doc_achivka_0 - нет ачивок
               doc_achivka_1 - 1 ачивка
               doc_achivka_2 - 2 ачивки
@@ -558,46 +558,47 @@
                   <thead>
                     <tr>
                       <th></th>
-                      <th>Каракас</th>
-                      <th>Бразилиа</th>
-                      <th>Асунсьон</th>
-                      <th>Буэнос-Айрес</th>
+                      <th>Венесуэла</th>
+                      <th>Бразилия</th>
+                      <th>Парагвай</th>
+                      <th>Аргентина</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <th scope="row">Каракас</th>
+                      <th scope="row">Венесуэла</th>
                       <td>-</td>
-                      <td>20</td>
-                      <td>30</td>
-                      <td>25</td>
+                      <td>2 919</td>
+                      <td>-</td>
+                      <td>5 166</td>
                     </tr>
                     <tr>
-                      <th scope="row">Бразилиа</th>
-                      <td>43</td>
+                      <th scope="row">Бразилия</th>
+                      <td>2 919</td>
                       <td>-</td>
-                      <td>5</td>
-                      <td>66</td>
+                      <td>-</td>
+                      <td>2 924</td>
                     </tr>
                     <tr>
-                      <th scope="row">Асунсьон</th>
-                      <td>41</td>
-                      <td>32</td>
+                      <th scope="row">Парагвай</th>
+                      <td>3 591</td>
+                      <td>1 231</td>
                       <td>-</td>
-                      <td>53</td>
+                      <td>1 735</td>
                     </tr>
                     <tr>
-                      <th scope="row">Буэнос-Айрес</th>
-                      <td>5</td>
-                      <td>45</td>
-                      <td>25</td>
+                      <th scope="row">Аргентина</th>
+                      <td>5 166</td>
+                      <td>2 924</td>
+                      <td>-</td>
                       <td>-</td>
                     </tr>
                   </tbody>
                 </table>
                 <hr>
                 <strong><p>Стоимость перелета между континентами</p></strong>
-                <table class="table table-hover">
+                <a href="../../pdf/flight_cost.pdf"><button type="button" class="btn btn-default">Смотреть стоимость</button></a>
+                <!-- <table class="table table-hover">
                   <thead>
                     <tr>
                       <th></th>
@@ -665,7 +666,7 @@
                       <td>-</td>
                     </tr>
                   </tbody>
-                </table>
+                </table> -->
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
@@ -677,7 +678,7 @@
         <!-- Нижняя панель с заданиями континентов -->
         <div class="bottom_panel">
             <div class="bottom_panel__task">
-                <img src="../../images/buttons/africa3.png" alt="Касса" title="Задание континента Африка" data-toggle="modal" data-target="#afrikaTask"><!-- Привязать к Access - названия картинок:
+                <img src="../../images/buttons/africa2.png" alt="Касса" title="Задание континента Африка" data-toggle="modal" data-target="#afrikaTask"><!-- Привязать к Access - названия картинок:
                 africa - нахождение команды на текущем континенте + задание не выполнено
                 africa2 - континент не посещен
                 africa3 - континент посещен и задание выполнено
@@ -691,7 +692,7 @@
                 -->
             </div>
             <div class="bottom_panel__task">            
-                <img src="../../images/buttons/europe.png" alt="Касса" title="Задание континента Европа" data-toggle="modal" data-target="#europeTask"><!-- Привязать к Access - названия картинок:
+                <img src="../../images/buttons/europe2.png" alt="Касса" title="Задание континента Европа" data-toggle="modal" data-target="#europeTask"><!-- Привязать к Access - названия картинок:
                 europe - нахождение команды на текущем континенте + задание не выполнено
                 europe2 - континент не посещен
                 europe3 - континент посещен и задание выполнено
@@ -705,14 +706,14 @@
                 -->
             </div>
             <div class="bottom_panel__task">
-                <img src="../../images/buttons/sa2.png" alt="Касса" title="Задание континента Южная Америка" data-toggle="modal" data-target="#southAmerikaTask"><!-- Привязать к Access - названия картинок:
+                <img src="../../images/buttons/sa.png" alt="Касса" title="Задание континента Южная Америка" data-toggle="modal" data-target="#southAmerikaTask"><!-- Привязать к Access - названия картинок:
                 sa - нахождение команды на текущем континенте + задание не выполнено
                 sa2 - континент не посещен
                 sa3 - континент посещен и задание выполнено
                 -->
             </div>
             <div class="bottom_panel__task">
-                <img src="../../images/buttons/na3.png" alt="Касса" title="Задание континента Северная Америка" data-toggle="modal" data-target="#northAmerikaTask"><!-- Привязать к Access - названия картинок:
+                <img src="../../images/buttons/na2.png" alt="Касса" title="Задание континента Северная Америка" data-toggle="modal" data-target="#northAmerikaTask"><!-- Привязать к Access - названия картинок:
                 na - нахождение команды на текущем континенте + задание не выполнено
                 na2 - континент не посещен
                 na3 - континент посещен и задание выполнено
@@ -729,7 +730,7 @@
                 <h4 class="modal-title" id="afrikaTaskLabel">Задание в Африке</h4>
               </div>
               <div class="modal-body">
-                <p>Ответ: Жираф</p><!-- Привязать к Access - показать подсказку, если команда ответила верно ИЛИ не показывать подсказку, если команда не отгадала -->
+                <p>Ответ: *******</p><!-- Привязать к Access - показать подсказку, если команда ответила верно ИЛИ не показывать подсказку, если команда не отгадала -->
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>

@@ -567,7 +567,7 @@ AmCharts.ready(function() {
             id: "africa",
             linkToObject: worldDataProvider,
             color: "#FFF59D",
-            title: "Африка",
+            title: "Африка располагает более 30% минеральных ресурсов Земли.",
 			// pattern: 
 			// 	{
 			// 		url: "patterns/black/pattern1.png",
@@ -579,7 +579,7 @@ AmCharts.ready(function() {
             id: "asia",
             linkToObject: worldDataProvider,
             color: "#FFCC80",
-            title: "Азия",
+            title: "В Азии находится самая выскоая и самая низкая точка на Земле: гора Эверест и Мертвое море. ",
    //          pattern: {
 			// 	url: "patterns/white/asia.jpg",
 			// 	width: 100,
@@ -590,7 +590,7 @@ AmCharts.ready(function() {
             id: "australia",
             linkToObject: worldDataProvider,
             color: "#CE93D8",
-            title: "Океания",
+            title: "Океания - это тысячи островов, тысяча двести языков и столько же разных обычаев и традиций. В Океании растёт хлебное дерево. Хлебными называют все виды деревьев рода Artocarpus семейства тутовых. Они плодоносят «буханками» весом до 12 кг! В мякоти овальных плодов накапливается крахмал, превращающийся по мере созревания в тесто.",
    //          pattern: {
 			// 	url: "patterns/white/afrika.jpg",
 			// 	width: 300,
@@ -601,7 +601,7 @@ AmCharts.ready(function() {
             id: "europe",
             linkToObject: worldDataProvider,
             color: "#EF9A9A",
-            title: "Европа",
+            title: "Самое посещяемое место в Европе - парижский Диснейленд.",
    //          pattern: {
 			// 	url: "patterns/white/evropa.jpg",
 			// 	width: 990,
@@ -612,7 +612,7 @@ AmCharts.ready(function() {
             id: "north_america",
             linkToObject: worldDataProvider,
             color: "#90CAF9",
-            title: "Северная Америка",
+            title: "Некогда Азия и Северная Америка были соединены перешейком, который затем опустился под воду. Ныне на его месте находится Берингов пролив.",
    //          pattern: {
 			// 	url: "patterns/white/north_america.jpg",
 			// 	width: 600,
@@ -623,7 +623,7 @@ AmCharts.ready(function() {
             id: "south_america",
             linkToObject: worldDataProvider,
             color: "#A5D6A7",
-            title: "Южная Америка",
+            title: "Интересные факты о Южной Америки раскрывают секрет долголетия жителей ее прибережных стран. Как утверждают ученые, употребление в пищу свежих морепродуктов и уникальные природные условия материка способствуют развитию умственного потенциала и укреплению здоровья людей.",
    //          pattern: {
 			// 	url: "patterns/white/south_america.jpg",
 			// 	width: 300,

@@ -82,7 +82,7 @@ if (pass == '')  {
 	  if (count == valueCoin) {
 	    return;
 	  } else {
-	    value.innerHTML = count += 1;
+	    value.innerHTML = count += 10;
 	  }
 	};
 	setInterval(updateTimer, 8);

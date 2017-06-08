@@ -66,7 +66,7 @@
                   title: "Пномпень",
                   latitude: 11.146323170614325,
                   longitude: 105.27668828437504,
-                  description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis voluptatibus nesciunt porro aut distinctio nihil." + " Lorem: ".bold() + "50$"
+                  description: "Современные технологии".bold()
               }, {
                   imageURL: "../../images/map_objects/beijing.png",
                   width: 40,
@@ -75,7 +75,7 @@
                   title: "Пекин",
                   latitude: 39.90419989999999,
                   longitude: 116.40739630000007,
-                  description: "Lorem aipsum dolor sit amet, consectetur adipisicing elit. Odit eius nostrum repudiandae odio fugit corporis." + " Lorem: ".bold() + "50$"
+                  description: "Кинофестиваль".bold()
               }, {
                   imageURL: "../../images/map_objects/riyadh.png",
                   width: 40,
@@ -84,7 +84,7 @@
                   title: "Эр-Рияд",
                   latitude: 24.7135517,
                   longitude: 46.67529569999999,
-                  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, eum. Nostrum neque doloribus voluptates minus." + " Lorem: ".bold() + "50$"
+                  description: "Флешмоб".bold()
               }, {
                   imageURL: "../../images/map_objects/tehran.png",
                   width: 40,
@@ -93,7 +93,7 @@
                   title: "Тегеран",
                   latitude: 35.6891975,
                   longitude: 51.388973599999986,
-                  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius id doloribus aliquid expedita incidunt alias!" + " Lorem: ".bold() + "50$"
+                  description: "Транзитная страна".bold()
               },{
                   svgPath: planeSVG,
                   positionOnLine: 0,
@@ -130,19 +130,19 @@
                     {
                         id: "KH",
                         color: "#FFD740",
-                        title: "Камбоджа:".bold() + " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem illum officiis, doloribus. Cupiditate, expedita, autem."},
+                        title: "Камбоджа:".bold() + " Жители Камбоджи — кхмеры. Кхмерский алфавит внесен в книгу рекордов Гиннесса как самый длинный в мире, он содержит 72 буквы."},
                     {
                         id: "CN",
                         color: "#FFD740",
-                        title: "Китай:".bold() + " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem illum officiis, doloribus. Cupiditate, expedita, autem."},
+                        title: "Китай:".bold() + " Все панды, живущие на планете, обитают в Китае."},
                     {
                         id: "SA",
-                        color: "#B2FF59",
-                        title: "Саудовская Аравия:".bold() + " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem illum officiis, doloribus. Cupiditate, expedita, autem."},
+                        color: "#FFD740",
+                        title: "Саудовская Аравия:".bold() + " В Саудовской Аравии 80 тысяч миллионеров."},
                     {
                         id: "IR",
-                        color: "#FFD740",
-                        title: "Иран:".bold() + " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem illum officiis, doloribus. Cupiditate, expedita, autem."}
+                        color: "#B2FF59",
+                        title: "Иран:".bold() + " Наиболее ценной икрой считается чёрная икра из обитающей в Каспийском море белуги. Однако самая дорогая её разновидность является, наоборот, светлой. Это икра марки «Almas» иранского производства, добываемая из белуг-альбиносов, стоимостью примерно 35 000$ за килограмм."}
               ];
 
               map.dataProvider = dataProvider;
@@ -160,7 +160,7 @@
               map.write("mapdiv");
           });
         </script>
-        
+
     </head>
     <body>
         <div id="skm_LockPane" class="LockOn"></div>
@@ -319,24 +319,24 @@
             <!-- Основной баланс -->
             <div class="main_balance" data-toggle="modal" data-target="#mainBalance">
                 <img src="../../images/buttons/coin.gif" alt="coin">
-                <div id="count_balance" title="Баланс команды">5000</div><!-- Привязать к Access итоговую сумму на счету команды -->
-                <div title="Кредит">+300 <i class="fa fa-credit-card" aria-hidden="true"></i></div><!-- Привязать к Access сумму кредита, который взяла команда-->
+                <div id="count_balance" title="Баланс команды">25000</div><!-- Привязать к Access итоговую сумму на счету команды -->
+                <div title="Кредит">+0 <i class="fa fa-credit-card" aria-hidden="true"></i></div><!-- Привязать к Access сумму кредита, который взяла команда-->
             </div>
             <!-- Достижения команд (ачивки) -->
             <div class="achivki">
-              <img src="../../images/buttons/lawyer_achivka_1.png" alt="Ачивка механика" title="Достижения юристов"><!-- Привязать к Access названия картинок:
+              <img src="../../images/buttons/lawyer_achivka_0.png" alt="Ачивка механика" title="Достижения юристов"><!-- Привязать к Access названия картинок:
               lawyer_achivka_0 - нет ачивок
               lawyer_achivka_1 - 1 ачивка
               lawyer_achivka_2 - 2 ачивки
               lawyer_achivka_3 - 3 ачивки
               -->
-              <img src="../../images/buttons/mech_achivka_2.png" alt="Ачивка механика" title="Достижения механиков"><!-- Привязать к Access названия картинок:
+              <img src="../../images/buttons/mech_achivka_0.png" alt="Ачивка механика" title="Достижения механиков"><!-- Привязать к Access названия картинок:
               mech_achivka_0 - нет ачивок
               mech_achivka_1 - 1 ачивка
               mech_achivka_2 - 2 ачивки
               mech_achivka_3 - 3 ачивки
               -->
-              <img src="../../images/buttons/doc_achivka_3.png" alt="Ачивка механика" title="Достижения докторов"><!-- Привязать к Access названия картинок:
+              <img src="../../images/buttons/doc_achivka_0.png" alt="Ачивка механика" title="Достижения докторов"><!-- Привязать к Access названия картинок:
               doc_achivka_0 - нет ачивок
               doc_achivka_1 - 1 ачивка
               doc_achivka_2 - 2 ачивки
@@ -569,36 +569,37 @@
                     <tr>
                       <th scope="row">Иран</th>
                       <td>-</td>
-                      <td>20</td>
-                      <td>30</td>
-                      <td>25</td>
+                      <td>4 612</td>
+                      <td>5 650</td>
+                      <td>1 269</td>
                     </tr>
                     <tr>
                       <th scope="row">Китай</th>
-                      <td>43</td>
                       <td>-</td>
-                      <td>5</td>
-                      <td>66</td>
+                      <td>-</td>
+                      <td>2 591</td>
+                      <td>5 766</td>
                     </tr>
                     <tr>
                       <th scope="row">Камбоджа</th>
-                      <td>41</td>
-                      <td>32</td>
                       <td>-</td>
-                      <td>53</td>
+                      <td>2 591</td>
+                      <td>-</td>
+                      <td>6 406</td>
                     </tr>
                     <tr>
                       <th scope="row">Саудовская Аравия</th>
-                      <td>5</td>
-                      <td>45</td>
-                      <td>25</td>
+                      <td>-</td>
+                      <td>5 766</td>
+                      <td>6 406</td>
                       <td>-</td>
                     </tr>
                   </tbody>
                 </table>
                 <hr>
                 <strong><p>Стоимость перелета между континентами</p></strong>
-                <table class="table table-hover">
+                <a href="../../pdf/flight_cost.pdf"><button type="button" class="btn btn-default">Смотреть стоимость</button></a>
+                <!-- <table class="table table-hover">
                   <thead>
                     <tr>
                       <th></th>
@@ -666,7 +667,7 @@
                       <td>-</td>
                     </tr>
                   </tbody>
-                </table>
+                </table> -->
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
@@ -678,21 +679,21 @@
         <!-- Нижняя панель с заданиями континентов -->
         <div class="bottom_panel">
             <div class="bottom_panel__task">
-                <img src="../../images/buttons/africa3.png" alt="Касса" title="Задание континента Африка" data-toggle="modal" data-target="#afrikaTask"><!-- Привязать к Access - названия картинок:
+                <img src="../../images/buttons/africa2.png" alt="Касса" title="Задание континента Африка" data-toggle="modal" data-target="#afrikaTask"><!-- Привязать к Access - названия картинок:
                 africa - нахождение команды на текущем континенте + задание не выполнено
                 africa2 - континент не посещен
                 africa3 - континент посещен и задание выполнено
                 -->
             </div>
             <div class="bottom_panel__task">
-                <img src="../../images/buttons/asia2.png" alt="Касса" title="Задание континента Азия" data-toggle="modal" data-target="#asiaTask"><!-- Привязать к Access - названия картинок:
+                <img src="../../images/buttons/asia.png" alt="Касса" title="Задание континента Азия" data-toggle="modal" data-target="#asiaTask"><!-- Привязать к Access - названия картинок:
                 asia - нахождение команды на текущем континенте + задание не выполнено
                 asia2 - континент не посещен
                 asia3 - континент посещен и задание выполнено
                 -->
             </div>
             <div class="bottom_panel__task">            
-                <img src="../../images/buttons/europe.png" alt="Касса" title="Задание континента Европа" data-toggle="modal" data-target="#europeTask"><!-- Привязать к Access - названия картинок:
+                <img src="../../images/buttons/europe2.png" alt="Касса" title="Задание континента Европа" data-toggle="modal" data-target="#europeTask"><!-- Привязать к Access - названия картинок:
                 europe - нахождение команды на текущем континенте + задание не выполнено
                 europe2 - континент не посещен
                 europe3 - континент посещен и задание выполнено
@@ -713,7 +714,7 @@
                 -->
             </div>
             <div class="bottom_panel__task">
-                <img src="../../images/buttons/na3.png" alt="Касса" title="Задание континента Северная Америка" data-toggle="modal" data-target="#northAmerikaTask"><!-- Привязать к Access - названия картинок:
+                <img src="../../images/buttons/na2.png" alt="Касса" title="Задание континента Северная Америка" data-toggle="modal" data-target="#northAmerikaTask"><!-- Привязать к Access - названия картинок:
                 na - нахождение команды на текущем континенте + задание не выполнено
                 na2 - континент не посещен
                 na3 - континент посещен и задание выполнено
@@ -730,7 +731,7 @@
                 <h4 class="modal-title" id="afrikaTaskLabel">Задание в Африке</h4>
               </div>
               <div class="modal-body">
-                <p>Ответ: Жираф</p><!-- Привязать к Access - показать подсказку, если команда ответила верно ИЛИ не показывать подсказку, если команда не отгадала -->
+                <p>Ответ: *******</p><!-- Привязать к Access - показать подсказку, если команда ответила верно ИЛИ не показывать подсказку, если команда не отгадала -->
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
