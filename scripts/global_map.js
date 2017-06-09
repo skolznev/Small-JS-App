@@ -72,7 +72,7 @@ AmCharts.ready(function() {
 	        imageURL: "../images/map_objects/moscow.png",
 	        width: 40,
       		height: 100,
-	        title: "Москва",
+	        title: "Москва, РФ",
 	        latitude: 55.755826,
 	        longitude: 37.6173,
 	        // label: "Madrid: +22C" //Подписи к картинкам
@@ -81,7 +81,7 @@ AmCharts.ready(function() {
 	        imageURL: "../images/map_objects/voronezh.png",
 	        width: 40,
       		height: 100,
-	        title: "Воронеж",
+	        title: "Воронеж, РФ",
 	        latitude: 51.6754966,
 	        longitude: 39.20888230000003,
 	    }, 
@@ -89,7 +89,7 @@ AmCharts.ready(function() {
 	        imageURL: "../images/map_objects/novosibirsk.png",
 	        width: 40,
       		height: 100,
-	        title: "Новосибирск",
+	        title: "Новосибирск, РФ",
 	        latitude: 55.00835259999999,
 	        longitude: 82.93573270000002,
 	    }, 
@@ -97,7 +97,7 @@ AmCharts.ready(function() {
 	        imageURL: "../images/map_objects/ekaterinburg.png",
 	        width: 40,
       		height: 100,
-	        title: "Екатеринбург",
+	        title: "Екатеринбург, РФ",
 	        latitude: 56.83892609999999,
 	        longitude: 60.60570250000001,
 	    }, 
@@ -105,7 +105,7 @@ AmCharts.ready(function() {
 	        imageURL: "../images/map_objects/petersburg.png",
 	        width: 40,
       		height: 100,
-	        title: "Санкт-Петербург",
+	        title: "Санкт-Петербург, РФ",
 	        latitude: 59.9342802,
 	        longitude: 30.335098600000038,
 	    }, 
@@ -113,7 +113,7 @@ AmCharts.ready(function() {
 	        imageURL: "../images/map_objects/washington.png",
 	        width: 40,
       		height: 100,
-	        title: "Вашингтон",
+	        title: "Вашингтон, США",
 	        latitude: 38.9071923,
 	        longitude: -77.03687070000001,
 	    }, 
@@ -121,7 +121,7 @@ AmCharts.ready(function() {
 	        imageURL: "../images/map_objects/ottawa.png",
 	        width: 40,
       		height: 100,
-	        title: "Оттава",
+	        title: "Оттава, Канада",
 	        latitude: 45.4215296,
 	        longitude: -75.69719309999999,
 	    },
@@ -129,7 +129,7 @@ AmCharts.ready(function() {
 	        imageURL: "../images/map_objects/belmopan.png",
 	        width: 40,
       		height: 100,
-	        title: "Бельмопан",
+	        title: "Бельмопан, Белиз",
 	        latitude: 17.2510114,
 	        longitude: -88.75902009999999,
 	    },
@@ -137,7 +137,7 @@ AmCharts.ready(function() {
 	        imageURL: "../images/map_objects/havana.png",
 	        width: 40,
       		height: 100,
-	        title: "Гавана",
+	        title: "Гавана, Куба",
 	        latitude: 23.1135925,
 	        longitude: -82.36659559999998
 	    },
@@ -145,7 +145,7 @@ AmCharts.ready(function() {
 	        imageURL: "../images/map_objects/buenos_aires.png",
 	        width: 40,
       		height: 100,
-	        title: "Буэнос-Айрес",
+	        title: "Буэнос-Айрес, Аргентина",
 	        latitude: -34.6036844,
 	        longitude: -58.381559100000004
 	    },
@@ -153,7 +153,7 @@ AmCharts.ready(function() {
 	        imageURL: "../images/map_objects/brasilia.png",
 	        width: 40,
       		height: 100,
-	        title: "Бразилиа",
+	        title: "Бразилиа, Бразилия",
 	        latitude: -15.7941569,
 	        longitude: -47.88252890000001
 	    },
@@ -161,7 +161,7 @@ AmCharts.ready(function() {
 	        imageURL: "../images/map_objects/caracas.png",
 	        width: 40,
       		height: 100,
-	        title: "Каракас",
+	        title: "Каракас, Венесуэла",
 	        latitude: 10.4805937,
 	        longitude: -66.90360629999998
 	    },
@@ -169,23 +169,23 @@ AmCharts.ready(function() {
 	        imageURL: "../images/map_objects/asuncion.png",
 	        width: 40,
       		height: 100,
-	        title: "Асунсьон",
+	        title: "Асунсьон, Парагвай",
 	        latitude: -25.2637399,
 	        longitude: -57.57592599999998
 	    },
 	    {
-	        imageURL: "../images/map_objects/san_marino.png",
+	        imageURL: "../images/map_objects/italy.png",
 	        width: 40,
       		height: 100,
-	        title: "Сан-Марино",
-	        latitude: 43.94236,
-	        longitude: 12.457776999999965
+	        title: "Рим, Италия",
+	        latitude: 41.8919300,
+	        longitude: 12.5113300
 	    },
 	    {
 	        imageURL: "../images/map_objects/bratislava.png",
 	        width: 40,
       		height: 100,
-	        title: "Братислава",
+	        title: "Братислава, Словакия",
 	        latitude: 48.1485965,
 	        longitude: 17.107747700000004
 	    },
@@ -193,7 +193,7 @@ AmCharts.ready(function() {
 	        imageURL: "../images/map_objects/reykjavik.png",
 	        width: 40,
       		height: 100,
-	        title: "Рейкьявик",
+	        title: "Рейкьявик, Исландия",
 	        latitude: 64.12652059999999,
 	        longitude: -21.817439299999933
 	    },
@@ -201,7 +201,7 @@ AmCharts.ready(function() {
 	        imageURL: "../images/map_objects/lisbon.png",
 	        width: 40,
       		height: 100,
-	        title: "Лиссабон",
+	        title: "Лиссабон, Португалия",
 	        latitude: 38.7222524,
 	        longitude: -9.139336599999979
 	    },
@@ -209,7 +209,7 @@ AmCharts.ready(function() {
 	        imageURL: "../images/map_objects/phnom_penh.png",
 	        width: 40,
       		height: 100,
-	        title: "Пномпень",
+	        title: "Пномпень, Камбоджа",
 	        latitude: 11.146323170614325,
 	        longitude: 105.27668828437504
 	    },
@@ -217,7 +217,7 @@ AmCharts.ready(function() {
 	        imageURL: "../images/map_objects/beijing.png",
 	        width: 40,
       		height: 100,
-	        title: "Пекин",
+	        title: "Пекин, Китай",
 	        latitude: 39.90419989999999,
 	        longitude: 116.40739630000007
 	    },
@@ -225,7 +225,7 @@ AmCharts.ready(function() {
 	        imageURL: "../images/map_objects/riyadh.png",
 	        width: 40,
       		height: 100,
-	        title: "Эр-Рияд",
+	        title: "Эр-Рияд, Саудовская Аравия",
 	        latitude: 24.7135517,
 	        longitude: 46.67529569999999
 	    },
@@ -233,7 +233,7 @@ AmCharts.ready(function() {
 	        imageURL: "../images/map_objects/tehran.png",
 	        width: 40,
       		height: 100,
-	        title: "Тегеран",
+	        title: "Тегеран, Иран",
 	        latitude: 35.6891975,
 	        longitude: 51.388973599999986
 	    },
@@ -241,7 +241,7 @@ AmCharts.ready(function() {
 	        imageURL: "../images/map_objects/brazzaville.png",
 	        width: 40,
       		height: 100,
-	        title: "Браззавиль",
+	        title: "Браззавиль, Республика Конго",
 	        latitude: -4.2633597,
 	        longitude: 15.242885300000012
 	    },
@@ -249,7 +249,7 @@ AmCharts.ready(function() {
 	        imageURL: "../images/map_objects/addis_ababa.png",
 	        width: 40,
       		height: 100,
-	        title: "Аддис-Абеба",
+	        title: "Аддис-Абеба, Эфиопия",
 	        latitude: 8.9806034,
 	        longitude: 38.75776050000002
 	    },
@@ -257,7 +257,7 @@ AmCharts.ready(function() {
 	        imageURL: "../images/map_objects/maputo.png",
 	        width: 40,
       		height: 100,
-	        title: "Мапуту",
+	        title: "Мапуту, Мозамбик",
 	        latitude: -25.891968,
 	        longitude: 32.605135099999984
 	    },
@@ -265,7 +265,7 @@ AmCharts.ready(function() {
 	        imageURL: "../images/map_objects/rabat.png",
 	        width: 40,
       		height: 100,
-	        title: "Рабат",
+	        title: "Рабат, Марокко",
 	        latitude: 33.9715904,
 	        longitude: -6.849812899999961
 	    },
@@ -273,7 +273,7 @@ AmCharts.ready(function() {
 	        imageURL: "../images/map_objects/canberra.png",
 	        width: 40,
       		height: 100,
-	        title: "Канберра",
+	        title: "Канберра, Австралия",
 	        latitude: -35.2809368,
 	        longitude: 149.13000920000002
 	    },
@@ -281,7 +281,7 @@ AmCharts.ready(function() {
 	        imageURL: "../images/map_objects/wellington.png",
 	        width: 40,
       		height: 100,
-	        title: "Веллингтон",
+	        title: "Веллингтон, Новая Зеландия",
 	        latitude: -41.1864603,
 	        longitude: 175.1
 	    },
@@ -289,7 +289,7 @@ AmCharts.ready(function() {
 	        imageURL: "../images/map_objects/port_vila.png",
 	        width: 40,
       		height: 100,
-	        title: "Порт-Вила",
+	        title: "Порт-Вила, Вануату",
 	        latitude: -16.1332512,
 	        longitude: 167.42732450000003
 	    },
@@ -297,7 +297,7 @@ AmCharts.ready(function() {
 	        imageURL: "../images/map_objects/suva.png",
 	        width: 40,
       		height: 100,
-	        title: "Сува",
+	        title: "Сува, Фиджи",
 	        latitude: -18,
 	        longitude: 178.4500789
 	    },
