@@ -140,13 +140,13 @@
                 <h4 class="modal-title" id="indexNewsLabel">Новости</h4>
               </div>
               <div class="modal-body">
-                <p><center><img src="images/game/find_me.png" alt="Найди меня"></center></p>
-                <h4 class="modal-title" id="indexNewsLabel">Новость №1 Добавлена страница с логотипами</h4>
-                <p>Смотреть тут:</p>
-                <a href="pages/logo.html"><button type="button" class="btn btn-default">Логотипы</button></a>
-                <hr>
+                <center><p><img src="images/game/find_me.png" alt="Найди меня"></p>
+                <h4 class="modal-title" id="indexNewsLabel">Для начала игры ознакомьтесь с правилами</h4>
+                <p><img src="images/game/strelka.gif" alt="Стрелка вниз"></p>
+                <a href="pages/about.html"><button type="button" class="btn btn-danger">Правила</button></a></center>
+                <!-- <hr>
                 <h4 class="modal-title" id="indexNewsLabel">Новость №2</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed rerum aliquid ea blanditiis omnis, dicta deserunt fuga impedit similique sequi maiores necessitatibus natus ex odio aut? Voluptatum, reiciendis fuga. Et iure aperiam, adipisci cum ad rem quaerat enim perspiciatis. Natus, soluta ex libero impedit cum numquam accusamus, quam aspernatur consequatur possimus. Blanditiis placeat cupiditate tenetur, laboriosam harum eos praesentium aliquam omnis! Veritatis quisquam soluta fuga earum asperiores libero vitae, repudiandae, delectus rem minima modi at! Quisquam maxime enim id minima dolorum sapiente nesciunt reiciendis voluptate veniam, doloribus esse, reprehenderit quos dolorem magni ut ab, excepturi itaque at placeat aut rerum?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed rerum aliquid ea blanditiis omnis, dicta deserunt fuga impedit similique sequi maiores necessitatibus natus ex odio aut? Voluptatum, reiciendis fuga. Et iure aperiam, adipisci cum ad rem quaerat enim perspiciatis. Natus, soluta ex libero impedit cum numquam accusamus, quam aspernatur consequatur possimus. Blanditiis placeat cupiditate tenetur, laboriosam harum eos praesentium aliquam omnis! Veritatis quisquam soluta fuga earum asperiores libero vitae, repudiandae, delectus rem minima modi at! Quisquam maxime enim id minima dolorum sapiente nesciunt reiciendis voluptate veniam, doloribus esse, reprehenderit quos dolorem magni ut ab, excepturi itaque at placeat aut rerum?</p> -->
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
@@ -191,7 +191,7 @@
         </div>
 
     <!-- Подключение js -->
-    <video autoplay poster="images/background/bg.jpg" id="video-on-bg">
+    <video autoplay poster="images/background/bg.jpg" id="video-on-bg" onclick="this.paused ? this.play() : this.pause();">
         <source src="video/bg_video.mp4" type="video/mp4">
     </video>
     <script src="scripts/jquery-3.2.1.min.js" type="text/javascript"></script>

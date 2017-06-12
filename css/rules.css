@@ -5,5 +5,17 @@
 	border: 1px solid blue;
 }   */
 .rules {
-	margin: 20px 100px;
+	margin: 0 15%;
+	margin-bottom: 100px;
+}
+.panel-heading p{
+	position: relative;
+	bottom: 150px;
+	height: 0;
+	text-align: center;
+	font-size: 1.7em;
+	font-weight: bold;
+}
+.panel-body img {
+	float: right;
 }
