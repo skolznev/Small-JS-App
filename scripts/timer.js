@@ -24,7 +24,7 @@ window.onload = function(){
   // текущая дата
   var now = new Date();       
   // дата предстоящего события (год, месяц, число)
-  var eventDate = new Date(2017,7,20,17,35,00,00);
+  var eventDate = new Date(2017,5,30,17,35,00,00);
   var span = document.getElementById('timetoevent');
   var text = 'До окончания игровой недели осталось: ';
   var div = document.getElementById('event-mess');
@@ -33,11 +33,11 @@ window.onload = function(){
    div.firstChild.nodeValue = text;
     window.setInterval(function(){
         if(new Date() > eventDate) {
-          window.location = "../flight.html";
+          window.location = "pages/flight.html";
         }
         span.innerHTML = timeToEvent(eventDate); 
       },1000);           
   } else {
-    window.location = "../flight.html";
+    window.location = "pages/flight.html";
   }           
 }
