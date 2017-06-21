@@ -47,14 +47,15 @@
                   id: "line1",
                   arc: -0.85,
                   alpha: 0.3,
-                  latitudes: [-4.2633597, 8.9806034],
-                  longitudes: [15.242885300000012, 38.75776050000002]
+                  latitudes: [],
+                  longitudes: [] // Привязать к Access широту и долготу
               }, {
                   id: "line2",
                   alpha: 0,
                   color: "#000000",
-                  latitudes: [-4.2633597, 8.9806034],
-                  longitudes: [15.242885300000012, 38.75776050000002]
+                  latitudes: [],
+                  longitudes: [] // Привязать к Access широту и долготу
+              }, {
               }];
 
               //Города и другие объекты карты
@@ -66,7 +67,7 @@
                   title: "Браззавиль, Республика Конго",
                   latitude: -4.2633597,
                   longitude: 15.242885300000012,
-                  description: "Задание: ".bold() + "\"Сроки сроки\"" + "<br>Награда: ".bold() + "11 625 <img src='../../images/buttons/coin2.png' alt='Монетка'>" + "<br>Внимание! Задание появится после оплаты стоимости перелета."// + "<br><a href='../../pdf/pdf-kongo.pdf' download>Скачать файл с заданием</a>"
+                  description: "Задание: ".bold() + "\"Сроки сроки\"" + "<br>Награда: ".bold() + "11 625 <img src='../../images/buttons/coin2.png' alt='Монетка'>" + "<br>Статус: ".bold() + "не выполнено" + "<br>Внимание! Задание появится после оплаты стоимости перелета."// + "<br><a href='../../pdf/pdf-kongo.pdf' download>Скачать файл с заданием</a>"
               }, {
                   imageURL: "../../images/map_objects/addis_ababa.png",
                   width: 40,
@@ -75,7 +76,7 @@
                   title: "Аддис-Абеба, Эфиопия",
                   latitude: 8.9806034,
                   longitude: 38.75776050000002,
-                  description: "Задание: ".bold() + "\"Крокодил\"" + "<br>Награда: ".bold() + "10 875 <img src='../../images/buttons/coin2.png' alt='Монетка'>" + "<br>Внимание! Задание появится после оплаты стоимости перелета."// + "<br><a href='../../pdf/pdf-efiopia.pdf' download>Скачать файл с заданием</a>"
+                  description: "Задание: ".bold() + "\"Крокодил\"" + "<br>Награда: ".bold() + "10 875 <img src='../../images/buttons/coin2.png' alt='Монетка'>" + "<br>Статус: ".bold() + "не выполнено" + "<br>Внимание! Задание появится после оплаты стоимости перелета."// + "<br><a href='../../pdf/pdf-efiopia.pdf' download>Скачать файл с заданием</a>"
               }, {
                   imageURL: "../../images/map_objects/maputo.png",
                   width: 40,
@@ -84,7 +85,7 @@
                   title: "Мапуту, Мозамбик",
                   latitude: -25.891968,
                   longitude: 32.605135099999984,
-                  description: "Задание: ".bold() + "\"Орел или решка\"" + "<br>Награда: ".bold() + "13 125 <img src='../../images/buttons/coin2.png' alt='Монетка'>" + "<br>Внимание! Задание появится после оплаты стоимости перелета."
+                  description: "Задание: ".bold() + "\"Орел или решка\"" + "<br>Награда: ".bold() + "13 125 <img src='../../images/buttons/coin2.png' alt='Монетка'>" + "<br>Статус: ".bold() + "не выполнено" + "<br>Внимание! Задание появится после оплаты стоимости перелета."
               }, {
                   imageURL: "../../images/map_objects/rabat.png",
                   width: 40,
@@ -342,6 +343,10 @@
               doc_achivka_2 - 2 ачивки
               doc_achivka_3 - 3 ачивки
               -->
+              <img src="../../images/buttons/lab_achivka_0.png" alt="Ачивка Лаборатории Решений" title="Достижение Лаборатории Решений"><!-- Привязать к Access названия картинок:
+              lab_achivka_0 - нет ачивки
+              lab_achivka_1 - есть ачивка
+              -->
             </div>
             <!-- Список участников команды -->
             <div class="panel panel-info">
@@ -362,6 +367,14 @@
               <div class="panel-body"><p><img src="../../images/buttons/mech3.png" alt="Механик"> Иванов Иван Иванович: 1000 <img src="../../images/buttons/coin2.png" alt="Монетка"></p></div>
               <div class="panel-body"><p><img src="../../images/buttons/doc3.png" alt="Доктор"> Иванов Иван Иванович: 1000 <img src="../../images/buttons/coin2.png" alt="Монетка"></p></div>
               <div class="panel-body"><p><img src="../../images/buttons/doc3.png" alt="Доктор"> Иванов Иван Иванович: 1000 <img src="../../images/buttons/coin2.png" alt="Монетка"></p></div>
+              <div class="panel-body"><p><img src="../../images/buttons/doc3.png" alt="Доктор"> Иванов Иван Иванович: 1000 <img src="../../images/buttons/coin2.png" alt="Монетка"></p></div>
+              <div class="panel-body"><p><img src="../../images/buttons/doc3.png" alt="Доктор"> Иванов Иван Иванович: 1000 <img src="../../images/buttons/coin2.png" alt="Монетка"></p></div>
+              <div class="panel-body"><p><img src="../../images/buttons/doc3.png" alt="Доктор"> Иванов Иван Иванович: 1000 <img src="../../images/buttons/coin2.png" alt="Монетка"></p></div>
+              <div class="panel-body"><p><img src="../../images/buttons/doc3.png" alt="Доктор"> Иванов Иван Иванович: 1000 <img src="../../images/buttons/coin2.png" alt="Монетка"></p></div>
+              <div class="panel-body"><p><img src="../../images/buttons/doc3.png" alt="Доктор"> Иванов Иван Иванович: 1000 <img src="../../images/buttons/coin2.png" alt="Монетка"></p></div>
+              <div class="panel-body"><p><img src="../../images/buttons/doc3.png" alt="Доктор"> Иванов Иван Иванович: 1000 <img src="../../images/buttons/coin2.png" alt="Монетка"></p></div>
+              <div class="panel-body"><p><img src="../../images/buttons/doc3.png" alt="Доктор"> Иванов Иван Иванович: 1000 <img src="../../images/buttons/coin2.png" alt="Монетка"></p></div>
+              <div class="panel-body"><p><img src="../../images/buttons/doc3.png" alt="Доктор"> Иванов Иван Иванович: 1000 <img src="../../images/buttons/coin2.png" alt="Монетка"></p></div>
             </div>
         </div>
         
@@ -375,7 +388,7 @@
                 <h4 class="modal-title" id="myModalLabel">Задание для юристов</h4>
               </div>
               <div class="modal-body">
-                <p>Отсутствует</p><!-- Привязать к Access - текст задания для юристов (не забываем про разные задания на разных неделях) -->
+                <p>Описание задания отсутствует</p><!-- Привязать к Access - текст задания для юристов (не забываем про разные задания на разных неделях) -->
                 <p>0 <img src="../../images/buttons/coin2.png" alt="Монетка"></p><!-- Привязать к Access - стоимость выполнения задания -->
               </div>
               <div class="modal-footer">
@@ -393,7 +406,7 @@
                 <h4 class="modal-title" id="myModalLabel">Задание для механиков</h4>
               </div>
               <div class="modal-body">
-                <p>Отсутствует</p><!-- Привязать к Access - текст задания для механиков (не забываем про разные задания на разных неделях) -->
+                <p>Описание задания отсутствует</p><!-- Привязать к Access - текст задания для механиков (не забываем про разные задания на разных неделях) -->
                 <p>0 <img src="../../images/buttons/coin2.png" alt="Монетка"></p><!-- Привязать к Access - стоимость выполнения задания -->
               </div>
               <div class="modal-footer">
@@ -411,7 +424,7 @@
                 <h4 class="modal-title" id="myModalLabel">Задание для докторов</h4>
               </div>
               <div class="modal-body">
-                <p>Отсутствует</p><!-- Привязать к Access - текст задания для докторов (не забываем про разные задания на разных неделях) -->
+                <p>Описание задания отсутствует</p><!-- Привязать к Access - текст задания для докторов (не забываем про разные задания на разных неделях) -->
                 <p>0 <img src="../../images/buttons/coin2.png" alt="Монетка"></p><!-- Привязать к Access - стоимость выполнения задания -->
               </div>
               <div class="modal-footer">
@@ -426,7 +439,7 @@
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Пуаро</h4>
+                <h4 class="modal-title" id="myModalLabel">Пуаро приветствует Вас в Африке</h4>
               </div>
               <div class="modal-body">
                 <!-- Карусель в модальном окне -->
@@ -484,56 +497,44 @@
                   <!-- Тело таблицы -->
                   <tbody>
                     <tr>
-                      <td>Выполнено задание</td><!-- Название операции -->
-                      <td>+2000 <img src="../../images/buttons/coin2.png" alt="Монетка"></td><!-- Расход/доход от проведенной операции -->
+                      <td></td> <!-- Привязать к Access описание транзакции - просто текст -->
+                      <td></td> <!-- Привязать к Access количество заработанных хантерсов в такой форме: +5 000 <img src="../../images/buttons/coin2.png" alt="Монетка"> -->
                     </tr>
                     <tr>
-                      <td>Выполнено непроизводственное задание</td>
-                      <td>+5 <img src="../../images/buttons/coin2.png" alt="Монетка"></td>
+                      <td></td> <!-- Привязать к Access описание транзакции - просто текст -->
+                      <td></td> <!-- Привязать к Access количество заработанных хантерсов в такой форме: +5 000 <img src="../../images/buttons/coin2.png" alt="Монетка"> -->
                     </tr>
                     <tr>
-                      <td>Перелет</td>
-                      <td>+5 <img src="../../images/buttons/coin2.png" alt="Монетка"></td>
+                      <td></td> <!-- Привязать к Access описание транзакции - просто текст -->
+                      <td></td> <!-- Привязать к Access количество заработанных хантерсов в такой форме: +5 000 <img src="../../images/buttons/coin2.png" alt="Монетка"> -->
                     </tr>
                     <tr>
-                      <td>Перелет</td>
-                      <td>+5 <img src="../../images/buttons/coin2.png" alt="Монетка"></td>
+                      <td></td> <!-- Привязать к Access описание транзакции - просто текст -->
+                      <td></td> <!-- Привязать к Access количество заработанных хантерсов в такой форме: +5 000 <img src="../../images/buttons/coin2.png" alt="Монетка"> -->
                     </tr>
                     <tr>
-                      <td>Перелет</td>
-                      <td>+5 <img src="../../images/buttons/coin2.png" alt="Монетка"></td>
+                      <td></td> <!-- Привязать к Access описание транзакции - просто текст -->
+                      <td></td> <!-- Привязать к Access количество заработанных хантерсов в такой форме: +5 000 <img src="../../images/buttons/coin2.png" alt="Монетка"> -->
                     </tr>
                     <tr>
-                      <td>Перелет</td>
-                      <td>+5 <img src="../../images/buttons/coin2.png" alt="Монетка"></td>
+                      <td></td> <!-- Привязать к Access описание транзакции - просто текст -->
+                      <td></td> <!-- Привязать к Access количество заработанных хантерсов в такой форме: +5 000 <img src="../../images/buttons/coin2.png" alt="Монетка"> -->
                     </tr>
                     <tr>
-                      <td>Перелет</td>
-                      <td>+5 <img src="../../images/buttons/coin2.png" alt="Монетка"></td>
+                      <td></td> <!-- Привязать к Access описание транзакции - просто текст -->
+                      <td></td> <!-- Привязать к Access количество заработанных хантерсов в такой форме: +5 000 <img src="../../images/buttons/coin2.png" alt="Монетка"> -->
                     </tr>
                     <tr>
-                      <td>Перелет</td>
-                      <td>+5 <img src="../../images/buttons/coin2.png" alt="Монетка"></td>
+                      <td></td> <!-- Привязать к Access описание транзакции - просто текст -->
+                      <td></td> <!-- Привязать к Access количество заработанных хантерсов в такой форме: +5 000 <img src="../../images/buttons/coin2.png" alt="Монетка"> -->
                     </tr>
                     <tr>
-                      <td>Перелет</td>
-                      <td>+5 <img src="../../images/buttons/coin2.png" alt="Монетка"></td>
+                      <td></td> <!-- Привязать к Access описание транзакции - просто текст -->
+                      <td></td> <!-- Привязать к Access количество заработанных хантерсов в такой форме: +5 000 <img src="../../images/buttons/coin2.png" alt="Монетка"> -->
                     </tr>
                     <tr>
-                      <td>Перелет</td>
-                      <td>+5 <img src="../../images/buttons/coin2.png" alt="Монетка"></td>
-                    </tr>
-                    <tr>
-                      <td>Перелет</td>
-                      <td>+5 <img src="../../images/buttons/coin2.png" alt="Монетка"></td>
-                    </tr>
-                    <tr>
-                      <td>Перелет</td>
-                      <td>+5 <img src="../../images/buttons/coin2.png" alt="Монетка"></td>
-                    </tr>
-                    <tr>
-                      <td>Перелет</td>
-                      <td>+5 <img src="../../images/buttons/coin2.png" alt="Монетка"></td>
+                      <td></td> <!-- Привязать к Access описание транзакции - просто текст -->
+                      <td></td> <!-- Привязать к Access количество заработанных хантерсов в такой форме: +5 000 <img src="../../images/buttons/coin2.png" alt="Монетка"> -->
                     </tr>
                   </tbody>
                 </table>

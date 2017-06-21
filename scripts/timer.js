@@ -23,8 +23,8 @@
 window.onload = function(){
   // текущая дата
   var now = new Date();       
-  // дата предстоящего события (год, месяц, число)
-  var eventDate = new Date(2017,5,30,17,35,00,00);
+  // дата предстоящего события (год, месяц(0 - январь) число, часы, минуты)
+  var eventDate = new Date(2017,6,03,0,0,0,0); // Админ меняет руками (year, month, date, hours, minutes, seconds, ms + Отсчет месяцев month начинается с нуля 0!)
   var span = document.getElementById('timetoevent');
   var text = 'До окончания игровой недели осталось: ';
   var div = document.getElementById('event-mess');
@@ -33,11 +33,13 @@ window.onload = function(){
    div.firstChild.nodeValue = text;
     window.setInterval(function(){
         if(new Date() > eventDate) {
-          window.location = "pages/flight.html";
+          // window.location = "pages/flight.html";
+          div.firstChild.nodeValue = 'Игровое время вышло';
         }
         span.innerHTML = timeToEvent(eventDate); 
       },1000);           
   } else {
-    window.location = "pages/flight.html";
+    // window.location = "pages/flight.html";
+    div.firstChild.nodeValue = 'Игровое время вышло';
   }           
 }
