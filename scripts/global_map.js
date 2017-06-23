@@ -177,7 +177,7 @@ AmCharts.ready(function() {
 	        imageURL: "../images/map_objects/italy.png",
 	        width: 40,
       		height: 100,
-	        title: "Рим, Италия",
+	        title: "Рим, � талия",
 	        latitude: 41.8919300,
 	        longitude: 12.5113300
 	    },
@@ -193,7 +193,7 @@ AmCharts.ready(function() {
 	        imageURL: "../images/map_objects/reykjavik.png",
 	        width: 40,
       		height: 100,
-	        title: "Рейкьявик, Исландия",
+	        title: "Рейкьявик, � сландия",
 	        latitude: 64.12652059999999,
 	        longitude: -21.817439299999933
 	    },
@@ -233,7 +233,7 @@ AmCharts.ready(function() {
 	        imageURL: "../images/map_objects/tehran.png",
 	        width: 40,
       		height: 100,
-	        title: "Тегеран, Иран",
+	        title: "Тегеран, � ран",
 	        latitude: 35.6891975,
 	        longitude: 51.388973599999986
 	    },
@@ -415,8 +415,7 @@ AmCharts.ready(function() {
 	        loop: true,
 	        scale: 0.03,
 	        positionScale: 1.8
-	    }
-	    ,
+	    },
 	    {
 	        svgPath: planeSVG,
 	        positionOnLine: 0,
@@ -439,82 +438,775 @@ AmCharts.ready(function() {
 	        loop: true,
 	        scale: 0.03,
 	        positionScale: 1.8
+	    },
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#000000",
+	        alpha: 0.1,
+	        animateAlongLine: true,
+	        lineId: "line14",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.3
+	    }, 
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#585869",
+	        animateAlongLine: true,
+	        lineId: "line13",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.8
+	    },
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#000000",
+	        alpha: 0.1,
+	        animateAlongLine: true,
+	        lineId: "line16",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.3
+	    }, 
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#585869",
+	        animateAlongLine: true,
+	        lineId: "line15",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.8
+	    },
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#000000",
+	        alpha: 0.1,
+	        animateAlongLine: true,
+	        lineId: "line18",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.3
+	    }, 
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#585869",
+	        animateAlongLine: true,
+	        lineId: "line17",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.8
+	    },
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#000000",
+	        alpha: 0.1,
+	        animateAlongLine: true,
+	        lineId: "line20",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.3
+	    }, 
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#585869",
+	        animateAlongLine: true,
+	        lineId: "line19",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.8
+	    },
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#000000",
+	        alpha: 0.1,
+	        animateAlongLine: true,
+	        lineId: "line22",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.3
+	    }, 
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#585869",
+	        animateAlongLine: true,
+	        lineId: "line21",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.8
+	    },
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#000000",
+	        alpha: 0.1,
+	        animateAlongLine: true,
+	        lineId: "line24",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.3
+	    }, 
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#585869",
+	        animateAlongLine: true,
+	        lineId: "line23",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.8
+	    },
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#000000",
+	        alpha: 0.1,
+	        animateAlongLine: true,
+	        lineId: "line26",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.3
+	    }, 
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#585869",
+	        animateAlongLine: true,
+	        lineId: "line25",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.8
+	    },
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#000000",
+	        alpha: 0.1,
+	        animateAlongLine: true,
+	        lineId: "line28",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.3
+	    }, 
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#585869",
+	        animateAlongLine: true,
+	        lineId: "line27",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.8
+	    },
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#000000",
+	        alpha: 0.1,
+	        animateAlongLine: true,
+	        lineId: "line30",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.3
+	    }, 
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#585869",
+	        animateAlongLine: true,
+	        lineId: "line29",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.8
+	    },
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#000000",
+	        alpha: 0.1,
+	        animateAlongLine: true,
+	        lineId: "line32",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.3
+	    }, 
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#585869",
+	        animateAlongLine: true,
+	        lineId: "line31",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.8
+	    },
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#000000",
+	        alpha: 0.1,
+	        animateAlongLine: true,
+	        lineId: "line34",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.3
+	    }, 
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#585869",
+	        animateAlongLine: true,
+	        lineId: "line33",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.8
+	    },
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#000000",
+	        alpha: 0.1,
+	        animateAlongLine: true,
+	        lineId: "line36",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.3
+	    }, 
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#585869",
+	        animateAlongLine: true,
+	        lineId: "line35",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.8
+	    },
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#000000",
+	        alpha: 0.1,
+	        animateAlongLine: true,
+	        lineId: "line38",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.3
+	    }, 
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#585869",
+	        animateAlongLine: true,
+	        lineId: "line37",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.8
+	    },
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#000000",
+	        alpha: 0.1,
+	        animateAlongLine: true,
+	        lineId: "line40",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.3
+	    }, 
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#585869",
+	        animateAlongLine: true,
+	        lineId: "line39",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.8
+	    },
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#000000",
+	        alpha: 0.1,
+	        animateAlongLine: true,
+	        lineId: "line42",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.3
+	    }, 
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#585869",
+	        animateAlongLine: true,
+	        lineId: "line41",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.8
+	    },
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#000000",
+	        alpha: 0.1,
+	        animateAlongLine: true,
+	        lineId: "line44",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.3
+	    }, 
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#585869",
+	        animateAlongLine: true,
+	        lineId: "line43",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.8
+	    },
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#000000",
+	        alpha: 0.1,
+	        animateAlongLine: true,
+	        lineId: "line46",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.3
+	    }, 
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#585869",
+	        animateAlongLine: true,
+	        lineId: "line45",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.8
+	    },
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#000000",
+	        alpha: 0.1,
+	        animateAlongLine: true,
+	        lineId: "line48",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.3
+	    }, 
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#585869",
+	        animateAlongLine: true,
+	        lineId: "line47",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.8
+	    },
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#000000",
+	        alpha: 0.1,
+	        animateAlongLine: true,
+	        lineId: "line50",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.3
+	    }, 
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#585869",
+	        animateAlongLine: true,
+	        lineId: "line49",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.8
+	    },
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#000000",
+	        alpha: 0.1,
+	        animateAlongLine: true,
+	        lineId: "line52",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.3
+	    }, 
+	    {
+	        svgPath: planeSVG,
+	        positionOnLine: 0,
+	        color: "#585869",
+	        animateAlongLine: true,
+	        lineId: "line51",
+	        flipDirection: true,
+	        loop: true,
+	        scale: 0.03,
+	        positionScale: 1.8
 	    }
     ];
 
-    //Линии передвижения команд
+    //	Линии передвижения команд
+    // 	Пример:
+    // 	latitudes: [широта точки 1, широта точки 2],
+	//	longitudes: [долгота точки 1, долгота точки 2]
+
     var lines = [
 	    {
 	        id: "line1",
 	        arc: -0.85,
 	        alpha: 0.3,
-	        latitudes: [55.755826, 38.9071923],
-	        longitudes: [37.6173, -77.03687070000001]
+	        latitudes: [], longitudes: []
 	    }, 
 	    {
 	        id: "line2",
 	        alpha: 0,
 	        color: "#000000",
-	        latitudes: [55.755826, 38.9071923],
-	        longitudes: [37.6173, -77.03687070000001]
+	        latitudes: [], longitudes: []
 	    }, 
 	    {
 	        id: "line3",
 	        arc: -0.85,
 	        alpha: 0.3,
-	        latitudes: [51.6754966, -4.2633597],
-	        longitudes: [39.20888230000003, 15.242885300000012]
+	        latitudes: [], longitudes: []
 	    }, 
 	    {
 	        id: "line4",
 	        alpha: 0,
 	        color: "#000000",
-	        latitudes: [51.6754966, -4.2633597],
-	        longitudes: [39.20888230000003, 15.242885300000012]
+	        latitudes: [], longitudes: []
 	    }, 
 	    {
 	        id: "line5",
 	        arc: -0.85,
 	        alpha: 0.3,
-	        latitudes: [59.9342802, 10.4805937],
-	        longitudes: [30.335098600000038, -66.90360629999998]
+	        latitudes: [], longitudes: []
 	    }, 
 	    {
 	        id: "line6",
 	        alpha: 0,
 	        color: "#000000",
-	        latitudes: [59.9342802, 10.4805937],
-	        longitudes: [30.335098600000038, -66.90360629999998]
+	        latitudes: [], longitudes: []
 	    }, 
 	    {
 	        id: "line7",
 	        arc: -0.85,
 	        alpha: 0.3,
-	        latitudes: [56.83892609999999, -35.2809368],
-	        longitudes: [60.60570250000001, 149.13000920000002]
+	        latitudes: [], longitudes: []
 	    }, 
 	    {
 	        id: "line8",
 	        alpha: 0,
 	        color: "#000000",
-	        latitudes: [56.83892609999999, -35.2809368],
-	        longitudes: [60.60570250000001, 149.13000920000002]
+	        latitudes: [], longitudes: []
 	    }, 
 	    {
 	        id: "line9",
 	        arc: -0.85,
 	        alpha: 0.3,
-	        latitudes: [55.00835259999999, 35.6891975],
-	        longitudes: [82.93573270000002, 51.388973599999986]
+	        latitudes: [], longitudes: []
 	    }, 
 	    {
 	        id: "line10",
 	        alpha: 0,
 	        color: "#000000",
-	        latitudes: [55.00835259999999, 35.6891975],
-	        longitudes: [82.93573270000002, 51.388973599999986]
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line11",
+	        arc: -0.85,
+	        alpha: 0.3,
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line12",
+	        alpha: 0,
+	        color: "#000000",
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line13",
+	        arc: -0.85,
+	        alpha: 0.3,
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line14",
+	        alpha: 0,
+	        color: "#000000",
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line15",
+	        arc: -0.85,
+	        alpha: 0.3,
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line16",
+	        alpha: 0,
+	        color: "#000000",
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line17",
+	        arc: -0.85,
+	        alpha: 0.3,
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line18",
+	        alpha: 0,
+	        color: "#000000",
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line19",
+	        arc: -0.85,
+	        alpha: 0.3,
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line20",
+	        alpha: 0,
+	        color: "#000000",
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line21",
+	        arc: -0.85,
+	        alpha: 0.3,
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line22",
+	        alpha: 0,
+	        color: "#000000",
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line23",
+	        arc: -0.85,
+	        alpha: 0.3,
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line24",
+	        alpha: 0,
+	        color: "#000000",
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line25",
+	        arc: -0.85,
+	        alpha: 0.3,
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line26",
+	        alpha: 0,
+	        color: "#000000",
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line27",
+	        arc: -0.85,
+	        alpha: 0.3,
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line28",
+	        alpha: 0,
+	        color: "#000000",
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line29",
+	        arc: -0.85,
+	        alpha: 0.3,
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line30",
+	        alpha: 0,
+	        color: "#000000",
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line31",
+	        arc: -0.85,
+	        alpha: 0.3,
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line32",
+	        alpha: 0,
+	        color: "#000000",
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line33",
+	        arc: -0.85,
+	        alpha: 0.3,
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line34",
+	        alpha: 0,
+	        color: "#000000",
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line35",
+	        arc: -0.85,
+	        alpha: 0.3,
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line36",
+	        alpha: 0,
+	        color: "#000000",
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line37",
+	        arc: -0.85,
+	        alpha: 0.3,
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line38",
+	        alpha: 0,
+	        color: "#000000",
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line39",
+	        arc: -0.85,
+	        alpha: 0.3,
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line40",
+	        alpha: 0,
+	        color: "#000000",
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line41",
+	        arc: -0.85,
+	        alpha: 0.3,
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line42",
+	        alpha: 0,
+	        color: "#000000",
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line43",
+	        arc: -0.85,
+	        alpha: 0.3,
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line44",
+	        alpha: 0,
+	        color: "#000000",
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line45",
+	        arc: -0.85,
+	        alpha: 0.3,
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line46",
+	        alpha: 0,
+	        color: "#000000",
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line47",
+	        arc: -0.85,
+	        alpha: 0.3,
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line48",
+	        alpha: 0,
+	        color: "#000000",
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line49",
+	        arc: -0.85,
+	        alpha: 0.3,
+	        latitudes: [], longitudes: []
+	    }, 
+	    {
+	        id: "line50",
+	        alpha: 0,
+	        color: "#000000",
+	        latitudes: [], longitudes: []
 	    }
-
     ];
     
     var teams = [{
@@ -623,7 +1315,7 @@ AmCharts.ready(function() {
             id: "south_america",
             linkToObject: worldDataProvider,
             color: "#A5D6A7",
-            title: "Интересные факты о Южной Америки раскрывают секрет долголетия жителей ее прибережных стран. Как утверждают ученые, употребление в пищу свежих морепродуктов и уникальные природные условия материка способствуют развитию умственного потенциала и укреплению здоровья людей.",
+            title: "� нтересные факты о Южной Америки раскрывают секрет долголетия жителей ее прибережных стран. Как утверждают ученые, употребление в пищу свежих морепродуктов и уникальные природные условия материка способствуют развитию умственного потенциала и укреплению здоровья людей.",
    //          pattern: {
 			// 	url: "patterns/white/south_america.jpg",
 			// 	width: 300,
